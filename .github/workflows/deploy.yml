@@ -1,4 +1,4 @@
-name: Deploy Next.js to VPS
+name: Deploy coursegenix Next.js to VPS
 
 on:
   push:
