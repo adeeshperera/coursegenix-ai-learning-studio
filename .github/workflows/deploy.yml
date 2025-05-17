@@ -40,6 +40,8 @@ jobs:
           file: ./coursegenix-ai-learning-studio/Dockerfile
           push: true
           tags: ${{ secrets.DOCKER_USERNAME }}/coursegenix-app:latest
+          build-args: |
+            STRIPE_API_KEY=${{ secrets.STRIPE_API_KEY }}
 
       - name: Deploy to VPS ${{ matrix.vps }}
         uses: appleboy/ssh-action@master
@@ -51,4 +53,4 @@ jobs:
             docker pull ${{ secrets.DOCKER_USERNAME }}/coursegenix-app:latest
             docker stop coursegenix-container || true
             docker rm coursegenix-container || true
-            docker run -d -p 3000:3000 --name coursegenix-container ${{ secrets.DOCKER_USERNAME }}/coursegenix-app:latest 
+            docker run -d -p 3000:3000 --name coursegenix-container ${{ secrets.DOCKER_USERNAME }}/coursegenix-app:latest

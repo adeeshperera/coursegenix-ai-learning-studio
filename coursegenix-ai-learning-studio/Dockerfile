@@ -23,6 +23,10 @@ COPY .env .env.production
 # Learn more here: https://nextjs.org/telemetry
 # Uncomment the following line in case you want to disable telemetry.
 # ENV NEXT_TELEMETRY_DISABLED 1
+
+ARG STRIPE_API_KEY
+ENV STRIPE_API_KEY=$STRIPE_API_KEY
+
 RUN \
   if [ -f yarn.lock ]; then yarn build; \
   elif [ -f package-lock.json ]; then npm run build; \
