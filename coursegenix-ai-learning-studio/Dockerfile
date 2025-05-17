@@ -4,12 +4,8 @@ FROM node:18-alpine AS deps
 RUN apk add --no-cache libc6-compat
 WORKDIR /app
 COPY package.json yarn.lock* package-lock.json* pnpm-lock.yaml* ./
-RUN \
-  if [ -f yarn.lock ]; then yarn --frozen-lockfile; \
-  elif [ -f package-lock.json ]; then npm ci; \
-  elif [ -f pnpm-lock.yaml ]; then yarn global add pnpm && pnpm i --frozen-lockfile; \
-  else echo "Lockfile not found." && exit 1; \
-  fi
+RUN npm ci
+RUN npx prisma generate
 
 # Rebuild the source code only when needed
 FROM node:18-alpine AS builder
@@ -26,6 +22,8 @@ COPY .env .env.production
 
 ARG STRIPE_API_KEY
 ENV STRIPE_API_KEY=$STRIPE_API_KEY
+
+RUN npx prisma generate
 
 RUN \
   if [ -f yarn.lock ]; then yarn build; \
