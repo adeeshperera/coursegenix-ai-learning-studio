@@ -43,6 +43,14 @@ jobs:
           build-args: |
             STRIPE_API_KEY=${{ secrets.STRIPE_API_KEY }}
             DATABASE_URL=${{ secrets.DATABASE_URL }}
+            NEXTAUTH_SECRET=${{ secrets.NEXTAUTH_SECRET }}
+            GOOGLE_CLIENT_ID=${{ secrets.GOOGLE_CLIENT_ID }}
+            GOOGLE_CLIENT_SECRET=${{ secrets.GOOGLE_CLIENT_SECRET }}
+            OPENAI_API_KEY=${{ secrets.OPENAI_API_KEY }}
+            UNSPLASH_API_KEY=${{ secrets.UNSPLASH_API_KEY }}
+            YOUTUBE_API_KEY=${{ secrets.YOUTUBE_API_KEY }}
+            NEXTAUTH_URL=${{ secrets.NEXTAUTH_URL }}
+            STRIPE_WEBHOOK_SECRET=${{ secrets.STRIPE_WEBHOOK_SECRET }}
 
       - name: Deploy to VPS ${{ matrix.vps }}
         uses: appleboy/ssh-action@master
@@ -54,4 +62,15 @@ jobs:
             docker pull ${{ secrets.DOCKER_USERNAME }}/coursegenix-app:latest
             docker stop coursegenix-container || true
             docker rm coursegenix-container || true
-            docker run -d -p 3000:3000 --name coursegenix-container ${{ secrets.DOCKER_USERNAME }}/coursegenix-app:latest
+            docker run -d -p 3000:3000 \
+              -e STRIPE_API_KEY=${{ secrets.STRIPE_API_KEY }} \
+              -e DATABASE_URL=${{ secrets.DATABASE_URL }} \
+              -e NEXTAUTH_SECRET=${{ secrets.NEXTAUTH_SECRET }} \
+              -e GOOGLE_CLIENT_ID=${{ secrets.GOOGLE_CLIENT_ID }} \
+              -e GOOGLE_CLIENT_SECRET=${{ secrets.GOOGLE_CLIENT_SECRET }} \
+              -e OPENAI_API_KEY=${{ secrets.OPENAI_API_KEY }} \
+              -e UNSPLASH_API_KEY=${{ secrets.UNSPLASH_API_KEY }} \
+              -e YOUTUBE_API_KEY=${{ secrets.YOUTUBE_API_KEY }} \
+              -e NEXTAUTH_URL=${{ secrets.NEXTAUTH_URL }} \
+              -e STRIPE_WEBHOOK_SECRET=${{ secrets.STRIPE_WEBHOOK_SECRET }} \
+              --name coursegenix-container ${{ secrets.DOCKER_USERNAME }}/coursegenix-app:latest
