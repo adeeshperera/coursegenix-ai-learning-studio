@@ -42,6 +42,7 @@ jobs:
           tags: ${{ secrets.DOCKER_USERNAME }}/coursegenix-app:latest
           build-args: |
             STRIPE_API_KEY=${{ secrets.STRIPE_API_KEY }}
+            DATABASE_URL=${{ secrets.DATABASE_URL }}
 
       - name: Deploy to VPS ${{ matrix.vps }}
         uses: appleboy/ssh-action@master
