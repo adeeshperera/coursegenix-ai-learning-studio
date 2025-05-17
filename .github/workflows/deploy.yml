@@ -1,0 +1,50 @@
+name: Deploy Next.js to VPS
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        vps: [vps1, vps2]
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Decode ENV
+        run: echo "${{ secrets.ENV_FILE_CONTENT }}" > ./coursegenix-ai-learning-studio/.env
+        shell: bash
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
+      - name: Log in to Docker Hub
+        uses: docker/login-action@v3
+        with:
+          username: ${{ secrets.DOCKER_USERNAME }}
+          password: ${{ secrets.DOCKER_PASSWORD }}
+
+      - name: Build and push Docker image
+        id: build-and-push
+        uses: docker/build-push-action@v5
+        with:
+          context: ./coursegenix-ai-learning-studio
+          file: ./Dockerfile
+          push: true
+          tags: ${{ secrets.DOCKER_USERNAME }}/coursegenix-app:latest
+
+      - name: Deploy to VPS ${{ matrix.vps }}
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets[format('VPS{0}_HOST', matrix.vps == 'vps1' && '1' || '2')] }}
+          username: ${{ secrets[format('VPS{0}_USERNAME', matrix.vps == 'vps1' && '1' || '2')] }}
+          key: ${{ secrets.VPS_SSH_KEY }}
+          script: |
+            docker pull ${{ secrets.DOCKER_USERNAME }}/coursegenix-app:latest
+            docker stop coursegenix-container || true
+            docker rm coursegenix-container || true
+            docker run -d -p 3000:3000 --name coursegenix-container ${{ secrets.DOCKER_USERNAME }}/coursegenix-app:latest 
