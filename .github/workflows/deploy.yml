@@ -33,7 +33,7 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           context: ./coursegenix-ai-learning-studio
-          file: ./Dockerfile
+          file: ./coursegenix-ai-learning-studio/Dockerfile
           push: true
           tags: ${{ secrets.DOCKER_USERNAME }}/coursegenix-app:latest
 
