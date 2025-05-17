@@ -19,6 +19,10 @@ jobs:
         run: echo "${{ secrets.ENV_FILE_CONTENT }}" > ./coursegenix-ai-learning-studio/.env
         shell: bash
 
+      - name: View ENV
+        run: cat ./coursegenix-ai-learning-studio/.env
+        shell: bash
+
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3
 
