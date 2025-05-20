@@ -120,3 +120,232 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* Ambient Gradient Blobs */
+.ambient-gradient-blobs {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 0;
+  pointer-events: none;
+  overflow: hidden;
+  will-change: transform;
+  transition: opacity 0.4s ease-in-out;
+}
+
+/* More subtle fade-in animation for the blob container */
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.ambient-gradient-blobs {
+  animation: fadeIn 1.2s ease-out forwards;
+}
+
+.ambient-blob {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(80px);
+  opacity: 0.5; /* Fixed opacity without pulsing */
+  mix-blend-mode: screen;
+  will-change: transform, border-radius, opacity;
+  transition: all 0.5s ease;
+  transition: background 1s linear, filter 0.8s ease-out;
+}
+
+/* Enhanced movement animations for blobs */
+.ambient-blob-1 {
+  width: 45vw;
+  height: 45vw;
+  min-width: 320px;
+  min-height: 320px;
+  left: -12vw;
+  top: -10vw;
+  background: linear-gradient(120deg, #7dd3fc, #38bdf8, #a21caf, #f472b6);
+  background-size: 300% 300%;
+  animation: blobAttentionGrab 2.5s ease-in-out 1, liquidMorph 12s cubic-bezier(0.4, 0, 0.2, 1) infinite alternate, liquidGradient 15s linear infinite, blobWander 8s ease-in-out infinite;
+  z-index: 1;
+}
+
+.ambient-blob-2 {
+  width: 40vw;
+  height: 40vw;
+  min-width: 280px;
+  min-height: 280px;
+  right: -10vw;
+  top: 25vh;
+  background: linear-gradient(140deg, #f472b6, #a21caf, #facc15, #f59e42);
+  background-size: 300% 300%;
+  animation: blobAttentionGrab 2.5s ease-in-out 0.2s 1, liquidMorph 14s cubic-bezier(0.4, 0, 0.2, 1) infinite alternate, liquidGradient 18s linear infinite, blobFloat 10s ease-in-out infinite;
+  z-index: 2;
+}
+
+.ambient-blob-3 {
+  width: 35vw;
+  height: 35vw;
+  min-width: 240px;
+  min-height: 240px;
+  left: 35vw;
+  bottom: -15vw;
+  background: linear-gradient(160deg, #facc15, #f59e42, #7dd3fc, #38bdf8);
+  background-size: 300% 300%;
+  animation: blobAttentionGrab 2.5s ease-in-out 0.4s 1, liquidMorph 16s cubic-bezier(0.64, 0.05, 0.35, 1) infinite alternate, liquidGradient 20s linear infinite, blobSwirl 12s ease-in-out infinite;
+  z-index: 3;
+}
+
+.ambient-blob-4 {
+  position: absolute;
+  width: 25vw;
+  height: 25vw;
+  min-width: 200px;
+  min-height: 200px;
+  right: 20vw;
+  top: 10vh;
+  background: linear-gradient(140deg, #a5f3fc, #22d3ee, #0ea5e9, #0284c7);
+  background-size: 300% 300%;
+  border-radius: 50%;
+  filter: blur(80px);
+  opacity: 0.5; /* Fixed opacity without pulsing */
+  mix-blend-mode: screen;
+  animation: blobAttentionGrab 2.5s ease-in-out 0.3s 1, liquidMorph 15s cubic-bezier(0.4, 0, 0.2, 1) infinite alternate, liquidGradient 22s linear infinite, blobOrbit 14s ease-in-out infinite;
+  z-index: 1;
+  will-change: transform, border-radius, opacity;
+}
+
+/* More subtle attention-grabbing animation */
+@keyframes blobAttentionGrab {
+  0% { 
+    opacity: 0.4; 
+    transform: scale(0.95) translate(0, 0);
+    filter: blur(85px);
+  }
+  30% { 
+    opacity: 0.5; 
+    transform: scale(1.1) translate(0, 0);
+    filter: blur(75px);
+  }
+  60% { 
+    opacity: 0.5; 
+    transform: scale(0.97) translate(0, 0);
+    filter: blur(80px);
+  }
+  100% { 
+    opacity: 0.5; 
+    transform: scale(1) translate(0, 0);
+    filter: blur(80px);
+  }
+}
+
+/* Dark mode with fixed opacity */
+.dark .ambient-blob {
+  mix-blend-mode: lighten;
+  filter: blur(90px);
+  opacity: 0.55; /* Fixed opacity */
+}
+
+/* Enhanced shape morphing animation */
+@keyframes liquidMorph {
+  0%   { border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%; transform: scale(1) rotate(0deg); }
+  20%  { border-radius: 70% 30% 45% 55% / 50% 60% 40% 50%; transform: scale(1.05) rotate(-1deg); }
+  40%  { border-radius: 40% 60% 70% 30% / 40% 50% 50% 60%; transform: scale(1.07) rotate(2deg); }
+  60%  { border-radius: 55% 45% 30% 70% / 70% 30% 60% 40%; transform: scale(1.06) rotate(-3deg); }
+  80%  { border-radius: 35% 65% 60% 40% / 40% 60% 40% 60%; transform: scale(1.04) rotate(1deg); }
+  100% { border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%; transform: scale(1) rotate(0deg); }
+}
+
+@keyframes liquidGradient {
+  0%   { background-position: 0% 50%; }
+  50%  { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* New enhanced movement animations with different motion patterns */
+@keyframes blobWander {
+  0%   { transform: translate(0%, 0%); }
+  25%  { transform: translate(5%, -4%); }
+  40%  { transform: translate(-3%, -6%); }
+  60%  { transform: translate(-6%, 3%); }
+  75%  { transform: translate(2%, 5%); }
+  100% { transform: translate(0%, 0%); }
+}
+
+@keyframes blobFloat {
+  0%   { transform: translate(0%, 0%); }
+  20%  { transform: translate(-4%, -3%); }
+  40%  { transform: translate(5%, -4%); }
+  60%  { transform: translate(6%, 3%); }
+  80%  { transform: translate(-3%, 6%); }
+  100% { transform: translate(0%, 0%); }
+}
+
+@keyframes blobSwirl {
+  0%   { transform: translate(0%, 0%) rotate(0deg); }
+  25%  { transform: translate(4%, -3%) rotate(2deg); }
+  50%  { transform: translate(-2%, -5%) rotate(-2deg); }
+  75%  { transform: translate(-5%, 2%) rotate(1deg); }
+  100% { transform: translate(0%, 0%) rotate(0deg); }
+}
+
+@keyframes blobOrbit {
+  0%   { transform: translate(0%, 0%) rotate(0deg); }
+  25%  { transform: translate(-4%, 3%) rotate(-1deg); }
+  50%  { transform: translate(0%, 6%) rotate(2deg); }
+  75%  { transform: translate(4%, 3%) rotate(-1deg); }
+  100% { transform: translate(0%, 0%) rotate(0deg); }
+}
+
+/* Responsive interactions - subtle parallax effect */
+@media (hover: hover) {
+  .ambient-gradient-blobs {
+    transition: transform 0.6s cubic-bezier(0.33, 1, 0.68, 1);
+  }
+  
+  .ambient-blob {
+    transition: transform 0.8s cubic-bezier(0.33, 1, 0.68, 1);
+  }
+}
+
+/* Mobile optimization */
+@media (max-width: 768px) {
+  .ambient-blob {
+    filter: blur(70px);
+    opacity: 0.45;
+  }
+  
+  .ambient-blob-1 {
+    width: 70vw;
+    height: 70vw;
+  }
+  
+  .ambient-blob-2 {
+    width: 60vw;
+    height: 60vw;
+  }
+  
+  .ambient-blob-3 {
+    width: 50vw;
+    height: 50vw;
+  }
+  
+  .ambient-blob-4 {
+    opacity: 0.4;
+    width: 40vw;
+    height: 40vw;
+  }
+}
+
+/* Performance optimization for devices that prefer reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .ambient-blob {
+    animation: liquidGradient 30s linear infinite !important;
+    transition: none !important;
+    transform: none !important;
+  }
+  
+  .ambient-gradient-blobs {
+    animation: none !important;
+  }
+}
+/* End Ambient Gradient Blobs */
