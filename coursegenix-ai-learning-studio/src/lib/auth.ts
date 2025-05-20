@@ -98,8 +98,8 @@ export const authOptions: NextAuthOptions = {
 			clientSecret: process.env.GOOGLE_CLIENT_SECRET as string,
 		}),
 		GitHubProvider({
-			clientId: process.env.GITHUB_CLIENT_ID as string,
-			clientSecret: process.env.GITHUB_CLIENT_SECRET as string,
+			clientId: process.env._GITHUB_CLIENT_ID as string,
+			clientSecret: process.env._GITHUB_CLIENT_SECRET as string,
 		}),
 	],
 };
