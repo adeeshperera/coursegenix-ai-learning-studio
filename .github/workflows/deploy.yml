@@ -51,6 +51,8 @@ jobs:
             YOUTUBE_API_KEY=${{ secrets.YOUTUBE_API_KEY }}
             NEXTAUTH_URL=${{ secrets.NEXTAUTH_URL }}
             STRIPE_WEBHOOK_SECRET=${{ secrets.STRIPE_WEBHOOK_SECRET }}
+            _GITHUB_CLIENT_ID=${{ secrets.GITHUB_CLIENT_ID }}
+            _GITHUB_CLIENT_SECRET=${{ secrets.GITHUB_CLIENT_SECRET }}
 
       - name: Deploy to VPS ${{ matrix.vps }}
         uses: appleboy/ssh-action@master
@@ -73,4 +75,6 @@ jobs:
               -e YOUTUBE_API_KEY=${{ secrets.YOUTUBE_API_KEY }} \
               -e NEXTAUTH_URL=${{ secrets.NEXTAUTH_URL }} \
               -e STRIPE_WEBHOOK_SECRET=${{ secrets.STRIPE_WEBHOOK_SECRET }} \
+              -e _GITHUB_CLIENT_ID=${{ secrets._GITHUB_CLIENT_ID }} \
+              -e _GITHUB_CLIENT_SECRET=${{ secrets._GITHUB_CLIENT_SECRET }} \
               --name coursegenix-container ${{ secrets.DOCKER_USERNAME }}/coursegenix-app:latest
