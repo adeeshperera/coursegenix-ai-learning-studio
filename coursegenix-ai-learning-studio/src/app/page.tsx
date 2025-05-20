@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import { ProductShowcase } from "@/components/ProductShowcase";
 import { ParallaxFeature } from "@/components/ParallaxFeature";
 import Link from "next/link";
-import { Users, Lightbulb, ThumbsUp, ChevronDown, ArrowRight, Sparkles, Book, PlayCircle, Star } from 'lucide-react';
+import { Users, Lightbulb, ThumbsUp, ChevronDown, ArrowRight, Sparkles, Book, PlayCircle, Star, ChevronLeft, ChevronRight } from 'lucide-react';
 import AmbientBlobs from '@/components/AmbientBlobs';
 
 // Animation variants for consistent animations
@@ -169,173 +169,588 @@ export default function HomePage() {
               transition={{ duration: 0.8, delay: 0.3, type: "spring", stiffness: 100 }}
               className="relative hidden lg:block"
             >
-              {/* Hero image with modern glass morphism design */}
+              {/* Enhanced platform interface mockup with improved UI/UX */}
               <div className="relative h-[540px] w-full rounded-3xl overflow-hidden shadow-2xl bg-gradient-to-br from-primary/5 to-secondary/5 border border-white/10 backdrop-blur-sm">
-                {/* Decorative elements */}
-                <div className="absolute top-0 right-0 w-32 h-32 bg-primary/30 rounded-full filter blur-3xl opacity-20 transform translate-x-1/2 -translate-y-1/2" />
-                <div className="absolute bottom-0 left-0 w-40 h-40 bg-secondary/30 rounded-full filter blur-3xl opacity-30 transform -translate-x-1/2 translate-y-1/2" />
+                {/* Enhanced glowing decorative elements */}
+                <div className="absolute top-0 right-0 w-40 h-40 bg-primary/30 rounded-full filter blur-3xl opacity-20 transform translate-x-1/2 -translate-y-1/2" />
+                <div className="absolute bottom-0 left-0 w-48 h-48 bg-secondary/30 rounded-full filter blur-3xl opacity-30 transform -translate-x-1/2 translate-y-1/2" />
                 
                 {/* Professional mockup of the platform interface with improved UI details */}
-                <div className="absolute inset-4 rounded-2xl overflow-hidden border border-white/20 shadow-lg">
-                  <div className="absolute inset-0 bg-background/95">
-                    {/* Platform UI mockup elements with more realistic design */}
-                    <div className="h-12 bg-muted/10 border-b border-white/10 flex items-center justify-between px-4">
-                      <div className="flex items-center">
-                        <div className="flex space-x-2 mr-4">
-                          <div className="w-3 h-3 rounded-full bg-red-400" />
-                          <div className="w-3 h-3 rounded-full bg-yellow-400" />
-                          <div className="w-3 h-3 rounded-full bg-green-400" />
-                        </div>
-                        <div className="h-6 w-64 bg-muted/30 rounded-md" />
+                <div className="absolute inset-4 rounded-2xl overflow-hidden border border-white/20 shadow-lg bg-gradient-to-br from-background/95 to-background/98">
+                  {/* Modern macOS-style window controls with enhanced styling */}
+                  <div className="h-12 bg-background/80 border-b border-white/10 flex items-center justify-between px-4 backdrop-blur-md">
+                    <div className="flex items-center gap-6">
+                      <div className="flex space-x-2">
+                        <div className="w-3 h-3 rounded-full bg-rose-500" />
+                        <div className="w-3 h-3 rounded-full bg-amber-500" />
+                        <div className="w-3 h-3 rounded-full bg-emerald-500" />
                       </div>
-                      <div className="flex items-center space-x-4">
-                        <div className="w-6 h-6 rounded-full bg-primary/20" />
-                        <div className="w-6 h-6 rounded-full bg-secondary/20" />
+                      <div className="flex items-center gap-2 px-3 py-1 rounded-md bg-secondary/10 border border-secondary/20">
+                        <div className="w-3 h-3 rounded-sm bg-primary/40" />
+                        <motion.div 
+                          initial={{ width: "100%" }}
+                          animate={{ width: "80%" }}
+                          transition={{ duration: 2, repeat: Infinity, repeatType: "mirror" }}
+                          className="h-1.5 rounded-sm bg-primary/20"
+                        />
+                      </div>
+                    </div>
+                    <div className="flex items-center space-x-3">
+                      <div className="w-6 h-6 rounded-full bg-secondary/10 flex items-center justify-center">
+                        <ChevronLeft className="w-3.5 h-3.5 text-muted-foreground/60" />
+                      </div>
+                      <div className="w-6 h-6 rounded-full bg-secondary/10 flex items-center justify-center">
+                        <ChevronRight className="w-3.5 h-3.5 text-muted-foreground/60" />
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div className="grid grid-cols-5 h-[calc(100%-48px)]">
+                    {/* Enhanced Sidebar with interactive elements and animations */}
+                    <div className="col-span-1 bg-secondary/5 backdrop-blur-xl border-r border-border/10 p-4">
+                      <div className="flex flex-col space-y-6">
+                        <div className="flex items-center gap-3 px-2">
+                          <div className="w-8 h-8 rounded-xl bg-gradient-to-br from-primary/80 to-primary shadow-lg shadow-primary/20 flex items-center justify-center">
+                            <Sparkles className="w-4 h-4 text-white" />
+                          </div>
+                          <motion.div
+                            initial={{ width: "60%" }}
+                            animate={{ width: "40%" }}
+                            transition={{ duration: 1.5, repeat: Infinity, repeatType: "mirror" }}
+                            className="h-3 bg-secondary/20 rounded"
+                          />
+                        </div>
+
+                        <div className="space-y-2">
+                          <div className="px-2">
+                            <motion.div
+                              initial={{ width: "75%" }}
+                              animate={{ width: "55%" }}
+                              transition={{ duration: 1.8, repeat: Infinity, repeatType: "mirror", delay: 0.2 }}
+                              className="h-3 bg-secondary/20 rounded mb-3"
+                            />
+                            <div className="flex items-center gap-2">
+                              <span className="px-2 py-0.5 rounded-full bg-primary/10 text-primary/80">
+                                <motion.div
+                                  initial={{ width: "20px" }}
+                                  animate={{ width: "30px" }}
+                                  transition={{ duration: 1.3, repeat: Infinity, repeatType: "mirror", delay: 0.5 }}
+                                  className="h-2 bg-primary/30 rounded"
+                                />
+                              </span>
+                              <span className="px-2 py-0.5 rounded-full bg-secondary/10">
+                                <motion.div
+                                  initial={{ width: "20px" }}
+                                  animate={{ width: "25px" }}
+                                  transition={{ duration: 2, repeat: Infinity, repeatType: "mirror", delay: 0.8 }}
+                                  className="h-2 bg-secondary/30 rounded"
+                                />
+                              </span>
+                            </div>
+                          </div>
+
+                          <div className="mt-4 space-y-1">
+                            <div className="px-2 py-1.5">
+                              <motion.div
+                                initial={{ width: "40%" }}
+                                animate={{ width: "55%" }}
+                                transition={{ duration: 2, repeat: Infinity, repeatType: "mirror", delay: 1 }}
+                                className="h-2 bg-secondary/30 rounded"
+                              />
+                            </div>
+                            
+                            <div className="relative">
+                              <div className="absolute left-2 top-4 bottom-0 w-0.5 bg-primary/20"></div>
+                              <div className="space-y-1 relative">
+                                {[
+                                  { active: true, complete: false },
+                                  { active: false, complete: false },
+                                  { active: false, complete: false }
+                                ].map((lesson, i) => (
+                                  <div 
+                                    key={i} 
+                                    className={`pl-6 pr-3 py-2 rounded-lg transition-all relative ${
+                                      lesson.active 
+                                        ? 'bg-primary/15 shadow-sm' 
+                                        : 'hover:bg-secondary/10'
+                                    }`}
+                                  >
+                                    <div className={`absolute left-1.5 top-1/2 -translate-y-1/2 w-3 h-3 rounded-full border-2 ${
+                                      lesson.active 
+                                        ? 'border-primary bg-primary/20' 
+                                        : 'border-muted-foreground/30'
+                                    }`}>
+                                      {lesson.complete && (
+                                        <svg className="w-2 h-2 text-muted-foreground/60" viewBox="0 0 24 24">
+                                          <path fill="currentColor" d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+                                        </svg>
+                                      )}
+                                    </div>
+                                    <motion.div
+                                      initial={{ width: i === 0 ? "85%" : i === 1 ? "65%" : "75%" }}
+                                      animate={{ width: i === 0 ? "75%" : i === 1 ? "55%" : "65%" }}
+                                      transition={{ duration: 2, repeat: Infinity, repeatType: "mirror", delay: i * 0.4 }}
+                                      className={`h-2.5 ${lesson.active ? "bg-primary/30" : "bg-secondary/20"} rounded`}
+                                    />
+                                  </div>
+                                ))}
+                              </div>
+                            </div>
+                          </div>
+                        </div>
                       </div>
                     </div>
                     
-                    <div className="grid grid-cols-5 h-[calc(100%-48px)]">
-                      {/* Sidebar with better UI elements */}
-                      <div className="col-span-1 border-r border-white/10 p-4">
-                        <div className="flex items-center space-x-2 mb-6">
-                          <div className="w-8 h-8 rounded-md bg-primary/40 flex items-center justify-center">
-                            <div className="w-4 h-4 rounded-sm bg-primary" />
-                          </div>
-                          <div className="h-6 w-24 bg-muted/30 rounded-md" />
-                        </div>
-                        <div className="space-y-3 mt-8">
-                          {[...Array(6)].map((_, i) => (
-                            <div key={i} className={`flex items-center p-2 rounded-md ${i === 1 ? 'bg-primary/10 border border-primary/20' : ''}`}>
-                              <div className={`w-6 h-6 rounded-md ${i === 1 ? 'bg-primary/40' : 'bg-muted/20'} mr-3`} />
-                              <div className={`h-4 flex-grow ${i === 1 ? 'bg-primary/30' : 'bg-muted/30'} rounded-md`} />
+                    {/* Enhanced Main Content Area with interactive elements */}
+                    <div className="col-span-4 p-6 bg-gradient-to-br from-background/50 to-background/30">
+                      <div className="flex flex-col gap-6">
+                        {/* Enhanced Header with animations */}
+                        <div className="flex items-center justify-between">
+                          <div className="flex items-center gap-3">
+                            <div className="p-2 rounded-lg bg-primary/10">
+                              <Book className="h-5 w-5 text-primary" />
                             </div>
-                          ))}
-                        </div>
-                      </div>
-                      
-                      {/* Main content area with improved course cards */}
-                      <div className="col-span-4 p-6">
-                        <div className="flex justify-between items-center mb-6">
-                          <div className="h-8 w-1/3 bg-muted/30 rounded-md" />
-                          <div className="flex space-x-3">
-                            <div className="h-8 w-20 bg-muted/20 rounded-md" />
-                            <div className="h-8 w-8 bg-primary/20 rounded-md flex items-center justify-center">
-                              <div className="w-4 h-4 rounded-sm bg-primary/60" />
+                            <div className="space-y-1.5">
+                              <motion.div
+                                initial={{ width: "130px" }}
+                                animate={{ width: "150px" }}
+                                transition={{ duration: 2, repeat: Infinity, repeatType: "mirror" }}
+                                className="h-3 bg-secondary/20 rounded"
+                              />
+                              <motion.div
+                                initial={{ width: "80px" }}
+                                animate={{ width: "100px" }}
+                                transition={{ duration: 1.5, repeat: Infinity, repeatType: "mirror", delay: 0.2 }}
+                                className="h-2.5 bg-secondary/20 rounded"
+                              />
                             </div>
                           </div>
-                        </div>
-                        
-                        <div className="grid grid-cols-2 gap-4 mb-6">
-                          {[...Array(4)].map((_, i) => (
-                            <motion.div 
-                              key={i} 
-                              className="p-4 border border-white/10 rounded-lg hover:border-primary/30 transition-all bg-muted/5 group"
-                              whileHover={{ y: -2, transition: { duration: 0.2 } }}
-                            >
-                              <div className="flex justify-between items-start mb-3">
-                                <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-primary/30 to-secondary/30 flex items-center justify-center">
-                                  <div className="w-5 h-5 rounded-md bg-white/80" />
+                          <div className="flex items-center gap-3">
+                            <div className="flex -space-x-2">
+                              {[...Array(3)].map((_, i) => (
+                                <div key={i} className="w-8 h-8 rounded-full border-2 border-background bg-secondary/20 flex items-center justify-center">
+                                  <span className="text-xs font-medium">{String.fromCharCode(65 + i)}</span>
                                 </div>
-                                <div className="w-6 h-6 rounded-full bg-muted/20 group-hover:bg-primary/20 transition-colors" />
-                              </div>
-                              <div className="h-4 w-3/4 bg-muted/30 rounded-md mb-2" />
-                              <div className="h-3 w-1/2 bg-muted/30 rounded-md mb-4" />
-                              <div className="flex justify-between items-center">
-                                <div className="h-2 w-12 bg-muted/20 rounded-md" />
-                                <div className="h-6 w-16 bg-primary/20 rounded-md" />
-                              </div>
-                            </motion.div>
-                          ))}
+                              ))}
+                            </div>
+                            <div className="h-6 w-px bg-border/40"></div>
+                            <div className="px-3 py-1 rounded-full bg-secondary/10 border border-secondary/20 flex items-center">
+                              <motion.div
+                                initial={{ width: "60px" }}
+                                animate={{ width: "40px" }}
+                                transition={{ duration: 1.7, repeat: Infinity, repeatType: "mirror", delay: 0.5 }}
+                                className="h-2 bg-secondary/30 rounded"
+                              />
+                            </div>
+                          </div>
                         </div>
 
-                        {/* Activity chart */}
-                        <div className="h-56 bg-muted/5 rounded-xl border border-white/10 p-4">
-                          <div className="flex justify-between items-center mb-4">
-                            <div className="h-5 w-1/3 bg-muted/30 rounded-md" />
-                            <div className="flex space-x-2">
-                              <div className="h-6 w-16 bg-muted/20 rounded-md" />
-                              <div className="h-6 w-16 bg-muted/20 rounded-md" />
+                        {/* Enhanced Video Player with interactive play button and glowing effects */}
+                        <div className="rounded-xl overflow-hidden border border-border/10 shadow-xl bg-black/90">
+                          <div className="aspect-video relative flex items-center justify-center group">
+                            {/* Video Thumbnail with gradient overlay */}
+                            <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
+                            <motion.div
+                              className="absolute inset-0 bg-gradient-to-r from-primary/5 via-transparent to-secondary/5"
+                              animate={{
+                                backgroundPosition: ["0% 50%", "100% 50%", "0% 50%"]
+                              }}
+                              transition={{ duration: 15, repeat: Infinity, ease: "linear" }}
+                            />
+                            
+                            {/* Enhanced play button with stronger animations */}
+                            <button className="relative z-10 w-16 h-16 rounded-full bg-primary/90 hover:bg-primary shadow-lg hover:scale-105 transition-all duration-200 flex items-center justify-center group">
+                              <motion.div
+                                animate={{ 
+                                  scale: [1, 1.2, 1],
+                                  opacity: [0.7, 0.4, 0.7]
+                                }}
+                                transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
+                                className="w-16 h-16 absolute rounded-full bg-primary/20"
+                              />
+                              <PlayCircle className="w-8 h-8 text-white ml-1" />
+                            </button>
+
+                            {/* Enhanced video controls */}
+                            <div className="absolute bottom-0 inset-x-0 p-4 space-y-2">
+                              {/* Progress Bar with animation */}
+                              <div className="h-1 w-full bg-white/20 rounded-full overflow-hidden">
+                                <motion.div 
+                                  initial={{ width: "30%" }}
+                                  animate={{ width: "65%" }}
+                                  transition={{ duration: 8, repeat: Infinity, repeatType: "loop" }}
+                                  className="h-full bg-primary rounded-full" 
+                                />
+                              </div>
+                              
+                              {/* Enhanced video controls with better contrast */}
+                              <div className="flex items-center justify-between">
+                                <div className="flex items-center gap-3">
+                                  <div className="text-sm text-white/90 font-medium px-2.5 py-1 rounded-md bg-white/10 backdrop-blur-sm">
+                                    12:34 / 24:18
+                                  </div>
+                                  <div className="flex items-center gap-2">
+                                    {["1x", "HD", "CC"].map((text, i) => (
+                                      <div key={i} className="px-2 py-1 text-xs font-medium text-white/70 hover:text-white/90 transition-colors">
+                                        {text}
+                                      </div>
+                                    ))}
+                                  </div>
+                                </div>
+                                <div className="flex items-center gap-2">
+                                  {["pip", "fullscreen"].map((_, i) => (
+                                    <button key={i} className="w-8 h-8 rounded-lg bg-white/10 hover:bg-white/20 backdrop-blur-sm flex items-center justify-center transition-colors">
+                                      <div className="w-4 h-4 rounded-sm bg-white/80" />
+                                    </button>
+                                  ))}
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          {/* Video Summary replaced with animated placeholder */}
+                          <div className="p-5 border-t border-white/10 bg-secondary/5 backdrop-blur-sm">
+                            <div className="font-medium mb-3 flex items-center gap-2">
+                              <div className="w-1 h-4 rounded-full bg-primary"></div>
+                              <motion.div 
+                                initial={{ width: "100px" }}
+                                animate={{ width: "120px" }}
+                                transition={{ duration: 2, repeat: Infinity, repeatType: "mirror" }}
+                                className="h-3 bg-secondary/30 rounded"
+                              />
+                            </div>
+                            <div className="space-y-2">
+                              <motion.div 
+                                initial={{ width: "100%" }}
+                                animate={{ width: "90%" }}
+                                transition={{ duration: 2, repeat: Infinity, repeatType: "mirror", delay: 0.2 }}
+                                className="h-2 bg-secondary/20 rounded"
+                              />
+                              <motion.div 
+                                initial={{ width: "100%" }}
+                                animate={{ width: "95%" }}
+                                transition={{ duration: 2.3, repeat: Infinity, repeatType: "mirror", delay: 0.4 }}
+                                className="h-2 bg-secondary/20 rounded"
+                              />
+                              <motion.div 
+                                initial={{ width: "80%" }}
+                                animate={{ width: "70%" }}
+                                transition={{ duration: 1.8, repeat: Infinity, repeatType: "mirror", delay: 0.6 }}
+                                className="h-2 bg-secondary/20 rounded"
+                              />
+                            </div>
+                          </div>
+                        </div>
+
+                        {/* Enhanced Interactive Quiz with animations */}
+                        <div className="grid grid-cols-2 gap-4">
+                          <div className="p-5 rounded-xl border border-border/10 shadow-lg bg-secondary/5 backdrop-blur-sm hover:bg-secondary/10 transition-colors group relative overflow-hidden">
+                            {/* Animated background glow */}
+                            <motion.div
+                              className="absolute inset-0 bg-gradient-to-r from-primary/5 to-secondary/5 opacity-0 group-hover:opacity-30"
+                              animate={{
+                                backgroundPosition: ["0% 50%", "100% 50%", "0% 50%"]
+                              }}
+                              transition={{ duration: 10, repeat: Infinity, ease: "linear" }}
+                            />
+                            
+                            <div className="flex items-center gap-3 mb-4">
+                              <div className="p-2 rounded-lg bg-primary/10 group-hover:bg-primary/20 transition-colors">
+                                <Sparkles className="w-4 h-4 text-primary" />
+                              </div>
+                              <motion.div 
+                                initial={{ width: "100px" }}
+                                animate={{ width: "120px" }}
+                                transition={{ duration: 2, repeat: Infinity, repeatType: "mirror" }}
+                                className="h-3 bg-secondary/20 rounded"
+                              />
+                            </div>
+                            
+                            <motion.div 
+                              initial={{ width: "85%" }}
+                              animate={{ width: "75%" }}
+                              transition={{ duration: 2.5, repeat: Infinity, repeatType: "mirror", delay: 0.3 }}
+                              className="h-2.5 bg-secondary/20 rounded mb-4"
+                            />
+                            
+                            <div className="space-y-2">
+                              {[
+                                { selected: true },
+                                { selected: false },
+                                { selected: false },
+                                { selected: false }
+                              ].map((option, i) => (
+                                <button
+                                  key={i}
+                                  className={`w-full flex items-center gap-3 p-3 rounded-lg border ${
+                                    option.selected 
+                                      ? 'border-primary/30 bg-primary/10' 
+                                      : 'border-border/10 hover:border-primary/20 hover:bg-secondary/10'
+                                  } transition-all duration-200`}
+                                >
+                                  <div className={`w-4 h-4 rounded-full flex items-center justify-center ${
+                                    option.selected 
+                                      ? 'bg-primary' 
+                                      : 'border-2 border-muted-foreground/30'
+                                  }`}>
+                                    {option.selected && (
+                                      <svg className="w-2.5 h-2.5 text-white" viewBox="0 0 24 24">
+                                        <path fill="currentColor" d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+                                      </svg>
+                                    )}
+                                  </div>
+                                  <motion.div
+                                    initial={{ width: i === 0 ? "120px" : i === 1 ? "140px" : i === 2 ? "100px" : "130px" }}
+                                    animate={{ width: i === 0 ? "100px" : i === 1 ? "120px" : i === 2 ? "90px" : "110px" }}
+                                    transition={{ duration: 2, repeat: Infinity, repeatType: "mirror", delay: i * 0.2 }}
+                                    className={`h-2.5 ${option.selected ? "bg-primary/30" : "bg-secondary/20"} rounded`}
+                                  />
+                                </button>
+                              ))}
                             </div>
                           </div>
                           
-                          {/* Activity chart columns */}
-                          <div className="h-28 mt-6 flex items-end justify-between px-2">
-                            {[40, 60, 30, 80, 50, 70, 45].map((height, i) => (
-                              <motion.div 
-                                key={i}
-                                initial={{ height: 0 }}
-                                animate={{ height: `${height}%` }}
-                                transition={{ delay: 0.5 + (i * 0.1), duration: 1, type: "spring" }}
-                                className={`w-8 rounded-t-sm ${i === 4 ? 'bg-primary/60' : 'bg-muted/20'}`}
-                              />
-                            ))}
-                          </div>
-                          
-                          <div className="flex justify-between mt-2">
-                            {['M', 'T', 'W', 'T', 'F', 'S', 'S'].map((day, i) => (
-                              <div key={i} className="text-center w-8 text-xs text-muted-foreground">
-                                {day}
+                          {/* Added second component for balance */}
+                          <div className="p-5 rounded-xl border border-border/10 shadow-lg bg-secondary/5 backdrop-blur-sm">
+                            <div className="flex items-center gap-3 mb-4">
+                              <div className="p-2 rounded-lg bg-secondary/10">
+                                <Star className="w-4 h-4 text-secondary" />
                               </div>
-                            ))}
+                              <motion.div 
+                                initial={{ width: "80px" }}
+                                animate={{ width: "100px" }}
+                                transition={{ duration: 1.8, repeat: Infinity, repeatType: "mirror" }}
+                                className="h-3 bg-secondary/20 rounded"
+                              />
+                            </div>
+                            
+                            {/* Interactive progress indicators */}
+                            <div className="space-y-3 mb-3">
+                              {[65, 40, 85].map((progress, i) => (
+                                <div key={i} className="space-y-1">
+                                  <div className="flex justify-between items-center">
+                                    <motion.div
+                                      initial={{ width: "60px" }}
+                                      animate={{ width: "80px" }}
+                                      transition={{ duration: 2, repeat: Infinity, repeatType: "mirror", delay: i * 0.3 }}
+                                      className="h-2 bg-secondary/20 rounded"
+                                    />
+                                    <span className="text-xs text-muted-foreground">{progress}%</span>
+                                  </div>
+                                  <div className="h-1.5 bg-secondary/10 rounded-full overflow-hidden">
+                                    <motion.div 
+                                      initial={{ width: `${progress-10}%` }}
+                                      animate={{ width: `${progress}%` }}
+                                      transition={{ duration: 2, repeat: Infinity, repeatType: "mirror", delay: i * 0.3 }}
+                                      className={`h-full rounded-full ${
+                                        i === 0 ? "bg-emerald-400" : i === 1 ? "bg-amber-400" : "bg-primary"
+                                      }`}
+                                    />
+                                  </div>
+                                </div>
+                              ))}
+                            </div>
+                            
+                            {/* Interactive chart placeholder */}
+                            <div className="mt-4 pt-3 border-t border-border/10">
+                              <div className="flex items-end justify-between h-16 gap-1">
+                                {[...Array(7)].map((_, i) => {
+                                  const height = 20 + Math.random() * 50;
+                                  return (
+                                    <motion.div
+                                      key={i}
+                                      initial={{ height: 10 }}
+                                      animate={{ height: height }}
+                                      transition={{ 
+                                        duration: 1.5 + Math.random(), 
+                                        repeat: Infinity, 
+                                        repeatType: "mirror", 
+                                        delay: i * 0.2
+                                      }}
+                                      className={`w-full rounded-t ${
+                                        i % 3 === 0 ? "bg-primary/40" : i % 2 === 0 ? "bg-secondary/40" : "bg-secondary/20"
+                                      }`}
+                                    />
+                                  )
+                                })}
+                              </div>
+                            </div>
                           </div>
+                        </div>
+
+                        {/* Enhanced Navigation Controls */}
+                        <div className="flex justify-between items-center pt-4 mt-4 border-t border-border/10">
+                          <button className="flex items-center gap-2 px-4 py-2 rounded-lg text-muted-foreground hover:text-foreground hover:bg-secondary/10 transition-all opacity-50 cursor-not-allowed">
+                            <ChevronLeft className="w-4 h-4" />
+                            <motion.div 
+                              initial={{ width: "80px" }}
+                              animate={{ width: "100px" }}
+                              transition={{ duration: 2, repeat: Infinity, repeatType: "mirror" }}
+                              className="h-2.5 bg-secondary/20 rounded"
+                            />
+                          </button>
+                          <button className="flex items-center gap-2 px-4 py-2 rounded-lg text-primary hover:bg-primary/10 transition-all">
+                            <motion.div 
+                              initial={{ width: "100px" }}
+                              animate={{ width: "120px" }}
+                              transition={{ duration: 2.2, repeat: Infinity, repeatType: "mirror" }}
+                              className="h-2.5 bg-primary/30 rounded"
+                            />
+                            <ChevronRight className="w-4 h-4" />
+                          </button>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
                 
-                {/* Animated cursor with glowing effect */}
+                {/* Enhanced animated cursor with dynamic glowing effect */}
                 <motion.div
                   className="absolute w-6 h-6 bg-primary/60 rounded-full"
                   animate={{ 
-                    x: [120, 400, 250, 300], 
-                    y: [100, 240, 350, 180] 
+                    x: [120, 400, 250, 300, 180, 350], 
+                    y: [100, 240, 350, 180, 280, 150],
+                    scale: [1, 1.2, 1, 1.1, 1]
                   }}
                   transition={{ 
                     repeat: Infinity, 
-                    repeatType: "reverse", 
-                    duration: 15,
+                    repeatType: "loop", 
+                    duration: 20,
                     ease: "easeInOut"
                   }}
                 >
                   <motion.div
                     className="absolute inset-0 bg-primary/30 rounded-full"
-                    animate={{ scale: [1, 1.5, 1] }}
+                    animate={{ scale: [1, 1.8, 1] }}
                     transition={{ repeat: Infinity, duration: 2 }}
                   />
                 </motion.div>
+                
+                {/* Added animated clicks to simulate user interaction */}
+                {[
+                  { x: 320, y: 220, delay: 4 },
+                  { x: 380, y: 140, delay: 8 },
+                  { x: 250, y: 300, delay: 12 },
+                  { x: 150, y: 180, delay: 16 }
+                ].map((pos, i) => (
+                  <motion.div
+                    key={i}
+                    className="absolute w-8 h-8 rounded-full bg-white/40"
+                    initial={{ x: pos.x, y: pos.y, scale: 0, opacity: 0 }}
+                    animate={{ 
+                      scale: [0, 1, 0],
+                      opacity: [0, 0.6, 0]
+                    }}
+                    transition={{ 
+                      delay: pos.delay,
+                      duration: 1, 
+                      repeat: Infinity,
+                      repeatDelay: 19
+                    }}
+                  />
+                ))}
               </div>
               
-              {/* Floating feature cards with enhanced animations */}
+              {/* Enhanced floating feature cards with better placement and styling */}
               <motion.div 
-                animate={{ y: [0, -10, 0] }}
+                animate={{ y: [0, -8, 0] }}
                 transition={{ repeat: Infinity, duration: 3, ease: "easeInOut" }}
-                className="absolute -top-6 -left-6 bg-background/80 backdrop-blur-sm p-4 rounded-xl shadow-xl border border-primary/20 hover:border-primary/30 transition-colors"
-                whileHover={{ scale: 1.05, boxShadow: "0 20px 25px -5px rgba(0, 0, 0, 0.1)" }}
+                className="absolute -top-12 left-10 bg-background/90 backdrop-blur-md p-5 rounded-xl shadow-xl border border-primary/20 hover:border-primary/40 transition-colors"
+                whileHover={{ scale: 1.05, boxShadow: "0 20px 25px -5px rgba(0, 0, 0, 0.2)" }}
+                style={{
+                  boxShadow: "0 10px 30px -10px rgba(0, 0, 0, 0.3), inset 0 1px 1px rgba(255, 255, 255, 0.1)"
+                }}
               >
-                <Lightbulb className="w-6 h-6 text-primary mb-2" />
-                <p className="text-sm font-medium">Smart Course Generation</p>
+                <div className="flex items-center gap-4">
+                  <div className="p-2.5 rounded-lg bg-primary/10 group-hover:bg-primary/20 transition-colors">
+                    <Lightbulb className="w-5 h-5 text-primary" />
+                  </div>
+                  <div>
+                    <h4 className="text-sm font-medium mb-1">Smart Generation</h4>
+                    <motion.div 
+                      initial={{ width: "80px" }}
+                      animate={{ width: "60px" }}
+                      transition={{ duration: 2, repeat: Infinity, repeatType: "mirror" }}
+                      className="h-1.5 bg-primary/20 rounded"
+                    />
+                  </div>
+                </div>
               </motion.div>
               
-              <motion.div 
-                animate={{ y: [0, 10, 0] }}
-                transition={{ repeat: Infinity, duration: 3.5, delay: 0.5, ease: "easeInOut" }}
-                className="absolute -bottom-6 -right-6 bg-background/80 backdrop-blur-sm p-4 rounded-xl shadow-xl border border-primary/20 hover:border-primary/30 transition-colors"
-                whileHover={{ scale: 1.05, boxShadow: "0 20px 25px -5px rgba(0, 0, 0, 0.1)" }}
-              >
-                <Users className="w-6 h-6 text-primary mb-2" />
-                <p className="text-sm font-medium">Student Analytics</p>
-              </motion.div>
-              
-              {/* New floating feature card */}
               <motion.div 
                 animate={{ y: [0, 8, 0] }}
-                transition={{ repeat: Infinity, duration: 4, delay: 1, ease: "easeInOut" }}
-                className="absolute top-1/2 -right-6 transform -translate-y-1/2 bg-background/80 backdrop-blur-sm p-4 rounded-xl shadow-xl border border-secondary/20 hover:border-secondary/30 transition-colors"
-                whileHover={{ scale: 1.05, boxShadow: "0 20px 25px -5px rgba(0, 0, 0, 0.1)" }}
+                transition={{ repeat: Infinity, duration: 3.5, delay: 0.5, ease: "easeInOut" }}
+                className="absolute top-1/3 -right-14 bg-background/90 backdrop-blur-md p-5 rounded-xl shadow-xl border border-primary/20 hover:border-primary/40 transition-colors"
+                whileHover={{ scale: 1.05, boxShadow: "0 20px 25px -5px rgba(0, 0, 0, 0.2)" }}
+                style={{
+                  boxShadow: "0 10px 30px -10px rgba(0, 0, 0, 0.3), inset 0 1px 1px rgba(255, 255, 255, 0.1)"
+                }}
               >
-                <PlayCircle className="w-6 h-6 text-primary mb-2" />
-                <p className="text-sm font-medium">Interactive Lessons</p>
+                <div className="flex items-center gap-4">
+                  <div className="p-2.5 rounded-lg bg-secondary/10 group-hover:bg-secondary/20 transition-colors">
+                    <Users className="w-5 h-5 text-primary" />
+                  </div>
+                  <div>
+                    <h4 className="text-sm font-medium mb-1">Learner Analytics</h4>
+                    <motion.div 
+                      initial={{ width: "70px" }}
+                      animate={{ width: "90px" }}
+                      transition={{ duration: 2.3, repeat: Infinity, repeatType: "mirror" }}
+                      className="h-1.5 bg-primary/20 rounded"
+                    />
+                  </div>
+                </div>
+              </motion.div>
+              
+              <motion.div 
+                animate={{ y: [0, -8, 0] }}
+                transition={{ repeat: Infinity, duration: 4, delay: 1, ease: "easeInOut" }}
+                className="absolute -bottom-10 left-6 bg-background/90 backdrop-blur-md p-5 rounded-xl shadow-xl border border-secondary/20 hover:border-secondary/40 transition-colors"
+                whileHover={{ scale: 1.05, boxShadow: "0 20px 25px -5px rgba(0, 0, 0, 0.2)" }}
+                style={{
+                  boxShadow: "0 10px 30px -10px rgba(0, 0, 0, 0.3), inset 0 1px 1px rgba(255, 255, 255, 0.1)"
+                }}
+              >
+                <div className="flex items-center gap-4">
+                  <div className="p-2.5 rounded-lg bg-primary/10 group-hover:bg-primary/20 transition-colors">
+                    <PlayCircle className="w-5 h-5 text-primary" />
+                  </div>
+                  <div>
+                    <h4 className="text-sm font-medium mb-1">Interactive Media</h4>
+                    <motion.div 
+                      initial={{ width: "65px" }}
+                      animate={{ width: "85px" }}
+                      transition={{ duration: 1.8, repeat: Infinity, repeatType: "mirror" }}
+                      className="h-1.5 bg-primary/20 rounded"
+                    />
+                  </div>
+                </div>
+              </motion.div>
+              
+              {/* New fourth card for better balance around the mockup */}
+              <motion.div 
+                animate={{ y: [0, 7, 0] }}
+                transition={{ repeat: Infinity, duration: 3.2, delay: 1.5, ease: "easeInOut" }}
+                className="absolute top-2/3 -left-12 bg-background/90 backdrop-blur-md p-5 rounded-xl shadow-xl border border-secondary/20 hover:border-secondary/40 transition-colors"
+                whileHover={{ scale: 1.05, boxShadow: "0 20px 25px -5px rgba(0, 0, 0, 0.2)" }}
+                style={{
+                  boxShadow: "0 10px 30px -10px rgba(0, 0, 0, 0.3), inset 0 1px 1px rgba(255, 255, 255, 0.1)"
+                }}
+              >
+                <div className="flex items-center gap-4">
+                  <div className="p-2.5 rounded-lg bg-secondary/10 group-hover:bg-secondary/20 transition-colors">
+                    <Star className="w-5 h-5 text-primary" />
+                  </div>
+                  <div>
+                    <h4 className="text-sm font-medium mb-1">Custom Quizzes</h4>
+                    <motion.div 
+                      initial={{ width: "75px" }}
+                      animate={{ width: "55px" }}
+                      transition={{ duration: 2.1, repeat: Infinity, repeatType: "mirror" }}
+                      className="h-1.5 bg-primary/20 rounded"
+                    />
+                  </div>
+                </div>
               </motion.div>
             </motion.div>
           </div>
@@ -561,7 +976,7 @@ export default function HomePage() {
                         xmlns="http://www.w3.org/2000/svg" 
                         viewBox="0 0 24 24"
                       >
-                        <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+                        <path d="M12 17.27L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
                       </motion.svg>
                     ))}
                   </div>
