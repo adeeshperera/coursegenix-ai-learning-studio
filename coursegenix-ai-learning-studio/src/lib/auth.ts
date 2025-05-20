@@ -2,6 +2,7 @@ import { DefaultSession, NextAuthOptions, getServerSession } from "next-auth";
 import { prisma } from "./db";
 import { PrismaAdapter } from "@next-auth/prisma-adapter";
 import GoogleProvider from "next-auth/providers/google";
+import GitHubProvider from "next-auth/providers/github";
 
 // Extend the Session and JWT types to include custom fields
 declare module "next-auth" {
@@ -24,6 +25,35 @@ declare module "next-auth/jwt" {
 export const authOptions: NextAuthOptions = {
 	session: {
 		strategy: "jwt",
+	},
+	cookies: {
+		sessionToken: {
+			name: `next-auth.session-token`,
+			options: {
+				httpOnly: true,
+				sameSite: "lax",
+				path: "/",
+				secure: process.env.NODE_ENV === "production", // Only use secure in production
+			},
+		},
+		callbackUrl: {
+			name: `next-auth.callback-url`,
+			options: {
+				httpOnly: true,
+				sameSite: "lax",
+				path: "/",
+				secure: process.env.NODE_ENV === "production",
+			},
+		},
+		csrfToken: {
+			name: `next-auth.csrf-token`,
+			options: {
+				httpOnly: true,
+				sameSite: "lax", 
+				path: "/",
+				secure: process.env.NODE_ENV === "production",
+			},
+		},
 	},
 	callbacks: {
 		jwt: async ({ token }) => {
@@ -66,6 +96,10 @@ export const authOptions: NextAuthOptions = {
 		GoogleProvider({
 			clientId: process.env.GOOGLE_CLIENT_ID as string,
 			clientSecret: process.env.GOOGLE_CLIENT_SECRET as string,
+		}),
+		GitHubProvider({
+			clientId: process.env.GITHUB_CLIENT_ID as string,
+			clientSecret: process.env.GITHUB_CLIENT_SECRET as string,
 		}),
 	],
 };
