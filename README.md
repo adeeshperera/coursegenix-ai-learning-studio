@@ -30,8 +30,7 @@ CourseGenix revolutionizes education by harnessing AI to generate comprehensive 
 <details>
 <summary><b>📸 Screenshots</b></summary>
 <br>
-<!-- Add screenshots here when available -->
-<i>Screenshots coming soon</i>
+<img src="coursegenix-ai-learning-studio/public/Screenshot - CourseGenix AI Learning Studio.png" alt="CourseGenix AI Learning Studio Screenshot" width="800" />
 </details>
 
 ## 🚀 Features
