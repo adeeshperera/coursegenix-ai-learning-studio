@@ -8,8 +8,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 [![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
 
-<img src="coursegenix-ai-learning-studio/public/Screenshot - CourseGenix AI Learning Studio.png" alt="CourseGenix AI Learning Studio" width="900" />
-
 </div>
 
 <p align="center">
@@ -19,7 +17,7 @@
 
 <div align="center">
   
-🌐 **[Live Demo](https://app.coursegenix.me/)** | 📚 **[Documentation](#documentation)** | 📹 **[Demo Video](#demo-video)** | 🐞 **[Report Bug](https://github.com/adeeshperera/coursegenix-ai-learning-studio/issues)**
+🌐 **[Live Demo](https://app.coursegenix.me/)** | 📚 **[Documentation](https://github.com/adeeshperera/coursegenix-ai-learning-studio)** | 🐞 **[Report Bug](https://github.com/adeeshperera/coursegenix-ai-learning-studio/issues)**
 
 </div>
 
@@ -29,19 +27,11 @@
 
 CourseGenix revolutionizes education by harnessing AI to generate comprehensive learning experiences. Create personalized courses on any topic, complete with structured content, video recommendations, summaries, and interactive quizzes.
 
-<p align="center">
-  <kbd>
-    <img src="coursegenix-ai-learning-studio/public/file.svg" alt="Course Creation" height="40" />
-  </kbd>
-  &nbsp;&nbsp;&nbsp;
-  <kbd>
-    <img src="coursegenix-ai-learning-studio/public/globe.svg" alt="Global Access" height="40" />
-  </kbd>
-  &nbsp;&nbsp;&nbsp;
-  <kbd>
-    <img src="coursegenix-ai-learning-studio/public/window.svg" alt="Interactive Learning" height="40" />
-  </kbd>
-</p>
+<details>
+<summary><b>📸 Screenshots</b></summary>
+<br>
+<img src="coursegenix-ai-learning-studio/public/Screenshot - CourseGenix AI Learning Studio.png" alt="CourseGenix AI Learning Studio Screenshot" width="800" />
+</details>
 
 ## 🚀 Features
 
@@ -84,16 +74,6 @@ CourseGenix revolutionizes education by harnessing AI to generate comprehensive 
   </tr>
 </table>
 
-## 📹 Demo Video
-
-<div align="center">
-  <a href="https://github.com/adeeshperera/coursegenix-ai-learning-studio/raw/main/System%20Demonstration/lv_0_20250521194758.mp4">
-    <img src="coursegenix-ai-learning-studio/public/Screenshot - CourseGenix AI Learning Studio.png" alt="Watch Demo Video" width="600" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);" />
-    <br>
-    <b>▶️ Click to watch the full demonstration video</b>
-  </a>
-</div>
-
 ## 🧠 Technology Stack
 
 <div align="center">
@@ -125,9 +105,7 @@ Before you begin, ensure you have the following:
 
 ## 🛠️ Quick Start
 
-<details open>
-<summary><b>⚡ Installation</b></summary>
-<br>
+### ⚡ Installation
 
 ```bash
 # Clone the repository
@@ -150,11 +128,8 @@ npx prisma migrate dev
 # Start development server
 npm run dev
 ```
-</details>
 
-<details>
-<summary><b>📝 Environment Variables</b></summary>
-<br>
+### 📝 Environment Variables
 
 Create a `.env` file in the root directory:
 
@@ -179,13 +154,10 @@ UNSPLASH_API_KEY="your-unsplash-api-key"
 STRIPE_API_KEY="your-stripe-api-key"
 STRIPE_WEBHOOK_SECRET="your-stripe-webhook-secret"
 ```
-</details>
 
 ## 🚢 Deployment
 
-<details>
-<summary><b>🐳 Docker Deployment</b></summary>
-<br>
+### 🐳 Docker Deployment
 
 ```bash
 # Build Docker image
@@ -205,46 +177,11 @@ docker build -t coursegenix-ai-learning-studio \
 # Run container
 docker run -p 3000:3000 coursegenix-ai-learning-studio
 ```
-</details>
-
-## 📚 Documentation
-
-<div align="center">
-  <table>
-    <tr>
-      <td align="center">
-        <a href="Documentation/Project_Proposal/PUSL3190 Project Proposal - 10898872.pdf">
-          <img src="coursegenix-ai-learning-studio/public/file.svg" height="48" /><br />
-          <b>Project Proposal</b>
-        </a>
-      </td>
-      <td align="center">
-        <a href="Documentation/PID/10898872_PID.pdf">
-          <img src="coursegenix-ai-learning-studio/public/file.svg" height="48" /><br />
-          <b>Project Initiation Document</b>
-        </a>
-      </td>
-      <td align="center">
-        <a href="Documentation/Interim/10898872_Interim_Report.pdf">
-          <img src="coursegenix-ai-learning-studio/public/file.svg" height="48" /><br />
-          <b>Interim Report</b>
-        </a>
-      </td>
-      <td align="center">
-        <a href="Documentation/Poster/10898872_Poster.pdf">
-          <img src="coursegenix-ai-learning-studio/public/file.svg" height="48" /><br />
-          <b>Project Poster</b>
-        </a>
-      </td>
-    </tr>
-  </table>
-</div>
 
 ## 🧩 Project Structure
 
 <details>
 <summary><b>Expand Project Structure</b></summary>
-<br>
 
 ```
 coursegenix-ai-learning-studio/
@@ -273,7 +210,6 @@ coursegenix-ai-learning-studio/
 
 <details>
 <summary><b>Expand Database Models</b></summary>
-<br>
 
 CourseGenix uses the following data models:
 
@@ -283,29 +219,6 @@ CourseGenix uses the following data models:
 - **`Chapter`** - Individual lessons with video content and summaries
 - **`Question`** - Quiz questions linked to chapters
 - **`UserSubscription`** - Premium subscription data and Stripe integration
-
-</details>
-
-## 🌟 Key Features Walkthrough
-
-<details>
-<summary><b>🧠 AI Course Generation</b></summary>
-<br>
-
-1. **Enter any topic** - From quantum physics to watercolor painting
-2. **Specify learning units** - Customize your learning path
-3. **Generate content** - AI creates comprehensive lessons
-4. **Review and refine** - Make adjustments as needed
-
-</details>
-
-<details>
-<summary><b>📊 Learning Analytics</b></summary>
-<br>
-
-- **Progress tracking** - Monitor your learning journey
-- **Quiz performance** - See your strengths and areas for improvement
-- **Learning insights** - Get personalized recommendations
 
 </details>
 
@@ -332,21 +245,16 @@ See our [contribution guidelines](CONTRIBUTING.md) for more details.
 
 ## 📄 License
 
-<div align="center">
-  
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-</div>
 
 ## 📧 Contact
 
-<div align="center">
-  
 B.A.C. Adeesh Perera - Creator and maintainer
+
+<div align="center">
 
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/adeeshperera)
 [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/adeeshperera)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/adeeshperera)
 
 [Report Bug](https://github.com/adeeshperera/coursegenix-ai-learning-studio/issues) · [Request Feature](https://github.com/adeeshperera/coursegenix-ai-learning-studio/issues)
 
@@ -355,6 +263,6 @@ B.A.C. Adeesh Perera - Creator and maintainer
 ---
 
 <div align="center">
-  <sub>Built with ❤️ by B.A.C. Adeesh Perera | © 2025 CourseGenix</sub>
+  <sub>Built with ❤️ by B.A.C. Adeesh Perera</sub>
 </div>
 
