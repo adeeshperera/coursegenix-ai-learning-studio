@@ -7,6 +7,10 @@
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 [![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
+[![Stripe](https://img.shields.io/badge/Stripe-626CD9?style=for-the-badge&logo=stripe&logoColor=white)](https://stripe.com/)
+
+<br/>
+<img src="coursegenix-ai-learning-studio/public/Screenshot - CourseGenix AI Learning Studio.png" alt="CourseGenix AI Learning Studio Screenshot" width="850" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);" />
 
 </div>
 
@@ -17,7 +21,7 @@
 
 <div align="center">
   
-🌐 **[Live Demo](https://app.coursegenix.me/)** | 📚 **[Documentation](https://github.com/adeeshperera/coursegenix-ai-learning-studio)** | 🐞 **[Report Bug](https://github.com/adeeshperera/coursegenix-ai-learning-studio/issues)**
+🌐 **[Live Demo](https://app.coursegenix.me/)** | 📚 **[Documentation](https://github.com/adeeshperera/coursegenix-ai-learning-studio/tree/main/Documentation)** | 🎬 **[System Demo](https://github.com/adeeshperera/coursegenix-ai-learning-studio/tree/main/System%20Demonstration)** | 🐞 **[Report Bug](https://github.com/adeeshperera/coursegenix-ai-learning-studio/issues)**
 
 </div>
 
@@ -28,9 +32,12 @@
 CourseGenix revolutionizes education by harnessing AI to generate comprehensive learning experiences. Create personalized courses on any topic, complete with structured content, video recommendations, summaries, and interactive quizzes.
 
 <details>
-<summary><b>📸 Screenshots</b></summary>
+<summary><b>🎥 Watch Demo Video</b></summary>
 <br>
-<img src="coursegenix-ai-learning-studio/public/Screenshot - CourseGenix AI Learning Studio.png" alt="CourseGenix AI Learning Studio Screenshot" width="800" />
+<div align="center">
+  <video src="System Demonstration/lv_0_20250521194758.mp4" controls width="800" style="max-width: 100%; border-radius: 8px;"></video>
+  <p><i>View the full demo video to see CourseGenix in action</i></p>
+</div>
 </details>
 
 ## 🚀 Features
@@ -178,6 +185,39 @@ docker build -t coursegenix-ai-learning-studio \
 docker run -p 3000:3000 coursegenix-ai-learning-studio
 ```
 
+## 📑 Documentation
+
+<div align="center">
+<table>
+  <tr>
+    <td align="center">
+      <a href="Documentation/PID/10898872_PID.pdf">
+        <img src="https://img.icons8.com/color/48/000000/document.png" width="48" height="48"/><br/>
+        <b>Project Initiation Document</b>
+      </a>
+    </td>
+    <td align="center">
+      <a href="Documentation/Interim/10898872_Interim_Report.pdf">
+        <img src="https://img.icons8.com/color/48/000000/documents.png" width="48" height="48"/><br/>
+        <b>Interim Report</b>
+      </a>
+    </td>
+    <td align="center">
+      <a href="Documentation/Poster/10898872_Poster.pdf">
+        <img src="https://img.icons8.com/color/48/000000/poster.png" width="48" height="48"/><br/>
+        <b>Project Poster</b>
+      </a>
+    </td>
+    <td align="center">
+      <a href="Documentation/Project_Proposal/PUSL3190 Project Proposal - 10898872.pdf">
+        <img src="https://img.icons8.com/color/48/000000/contract.png" width="48" height="48"/><br/>
+        <b>Project Proposal</b>
+      </a>
+    </td>
+  </tr>
+</table>
+</div>
+
 ## 🧩 Project Structure
 
 <details>
@@ -222,6 +262,44 @@ CourseGenix uses the following data models:
 
 </details>
 
+## ⚙️ Core Components
+
+<details>
+<summary><b>Frontend Components</b></summary>
+
+```
+src/components/
+├── AmbientBlobs.tsx          # Visual background effects
+├── ChapterCard.tsx           # Display for course chapters
+├── ConfirmChapters.tsx       # Chapter confirmation UI
+├── CourseSideBar.tsx         # Course navigation sidebar
+├── CreateCourseForm.tsx      # Course creation form
+├── GalleryCourseCard.tsx     # Course card for gallery view
+├── MainVideoSummary.tsx      # Video player with summary
+├── Navbar.tsx                # Main navigation component
+├── ParallaxFeature.tsx       # Parallax scrolling effects
+├── ProductShowcase.tsx       # Product demonstration module
+├── QuizCards.tsx             # Interactive quiz components
+└── ...
+```
+</details>
+
+<details>
+<summary><b>Backend Services</b></summary>
+
+```
+src/lib/
+├── auth.ts          # Authentication service
+├── db.ts            # Database connection
+├── gpt.ts           # AI content generation
+├── stripe.ts        # Payment processing
+├── subscription.ts  # Subscription management
+├── unsplash.ts      # Image service integration
+├── utils.ts         # Utility functions
+└── youtube.ts       # YouTube API integration
+```
+</details>
+
 ## 🤝 Contributing
 
 We welcome contributions to CourseGenix! Here's how you can help:
@@ -255,6 +333,7 @@ B.A.C. Adeesh Perera - Creator and maintainer
 
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/adeeshperera)
 [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/adeeshperera)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/adeeshperera)
 
 [Report Bug](https://github.com/adeeshperera/coursegenix-ai-learning-studio/issues) · [Request Feature](https://github.com/adeeshperera/coursegenix-ai-learning-studio/issues)
 
@@ -263,6 +342,6 @@ B.A.C. Adeesh Perera - Creator and maintainer
 ---
 
 <div align="center">
-  <sub>Built with ❤️ by B.A.C. Adeesh Perera</sub>
+  <sub>© 2025 CourseGenix AI Learning Studio • Built with ❤️ by B.A.C. Adeesh Perera</sub>
 </div>
 
