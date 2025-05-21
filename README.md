@@ -4,6 +4,8 @@
 
 CourseGenix is an AI-powered learning platform that revolutionizes course creation and education. Create personalized courses, generate comprehensive content with video recommendations, summaries, and quizzes—all powered by AI.
 
+🌐 **Production Site:** [https://app.coursegenix.me/](https://app.coursegenix.me/)
+
 ## 🚀 Features
 
 - **AI-Generated Courses**: Create complete courses on any topic in minutes
