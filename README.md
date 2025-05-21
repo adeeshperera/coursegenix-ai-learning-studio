@@ -7,10 +7,8 @@
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 [![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
-[![Stripe](https://img.shields.io/badge/Stripe-626CD9?style=for-the-badge&logo=stripe&logoColor=white)](https://stripe.com/)
 
-<br/>
-<img src="coursegenix-ai-learning-studio/public/Screenshot - CourseGenix AI Learning Studio.png" alt="CourseGenix AI Learning Studio Screenshot" width="850" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);" />
+<img src="coursegenix-ai-learning-studio/public/Screenshot - CourseGenix AI Learning Studio.png" alt="CourseGenix AI Learning Studio" width="900" />
 
 </div>
 
@@ -21,7 +19,7 @@
 
 <div align="center">
   
-🌐 **[Live Demo](https://app.coursegenix.me/)** | 📚 **[Documentation](https://github.com/adeeshperera/coursegenix-ai-learning-studio/tree/main/Documentation)** | 🎬 **[System Demo](https://github.com/adeeshperera/coursegenix-ai-learning-studio/tree/main/System%20Demonstration)** | 🐞 **[Report Bug](https://github.com/adeeshperera/coursegenix-ai-learning-studio/issues)**
+🌐 **[Live Demo](https://app.coursegenix.me/)** | 📚 **[Documentation](#documentation)** | 📹 **[Demo Video](#demo-video)** | 🐞 **[Report Bug](https://github.com/adeeshperera/coursegenix-ai-learning-studio/issues)**
 
 </div>
 
@@ -31,14 +29,19 @@
 
 CourseGenix revolutionizes education by harnessing AI to generate comprehensive learning experiences. Create personalized courses on any topic, complete with structured content, video recommendations, summaries, and interactive quizzes.
 
-<details>
-<summary><b>🎥 Watch Demo Video</b></summary>
-<br>
-<div align="center">
-  <video src="System Demonstration/lv_0_20250521194758.mp4" controls width="800" style="max-width: 100%; border-radius: 8px;"></video>
-  <p><i>View the full demo video to see CourseGenix in action</i></p>
-</div>
-</details>
+<p align="center">
+  <kbd>
+    <img src="coursegenix-ai-learning-studio/public/file.svg" alt="Course Creation" height="40" />
+  </kbd>
+  &nbsp;&nbsp;&nbsp;
+  <kbd>
+    <img src="coursegenix-ai-learning-studio/public/globe.svg" alt="Global Access" height="40" />
+  </kbd>
+  &nbsp;&nbsp;&nbsp;
+  <kbd>
+    <img src="coursegenix-ai-learning-studio/public/window.svg" alt="Interactive Learning" height="40" />
+  </kbd>
+</p>
 
 ## 🚀 Features
 
@@ -81,6 +84,16 @@ CourseGenix revolutionizes education by harnessing AI to generate comprehensive 
   </tr>
 </table>
 
+## 📹 Demo Video
+
+<div align="center">
+  <a href="https://github.com/adeeshperera/coursegenix-ai-learning-studio/raw/main/System%20Demonstration/lv_0_20250521194758.mp4">
+    <img src="coursegenix-ai-learning-studio/public/Screenshot - CourseGenix AI Learning Studio.png" alt="Watch Demo Video" width="600" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);" />
+    <br>
+    <b>▶️ Click to watch the full demonstration video</b>
+  </a>
+</div>
+
 ## 🧠 Technology Stack
 
 <div align="center">
@@ -112,7 +125,9 @@ Before you begin, ensure you have the following:
 
 ## 🛠️ Quick Start
 
-### ⚡ Installation
+<details open>
+<summary><b>⚡ Installation</b></summary>
+<br>
 
 ```bash
 # Clone the repository
@@ -135,8 +150,11 @@ npx prisma migrate dev
 # Start development server
 npm run dev
 ```
+</details>
 
-### 📝 Environment Variables
+<details>
+<summary><b>📝 Environment Variables</b></summary>
+<br>
 
 Create a `.env` file in the root directory:
 
@@ -161,10 +179,13 @@ UNSPLASH_API_KEY="your-unsplash-api-key"
 STRIPE_API_KEY="your-stripe-api-key"
 STRIPE_WEBHOOK_SECRET="your-stripe-webhook-secret"
 ```
+</details>
 
 ## 🚢 Deployment
 
-### 🐳 Docker Deployment
+<details>
+<summary><b>🐳 Docker Deployment</b></summary>
+<br>
 
 ```bash
 # Build Docker image
@@ -184,44 +205,46 @@ docker build -t coursegenix-ai-learning-studio \
 # Run container
 docker run -p 3000:3000 coursegenix-ai-learning-studio
 ```
+</details>
 
-## 📑 Documentation
+## 📚 Documentation
 
 <div align="center">
-<table>
-  <tr>
-    <td align="center">
-      <a href="Documentation/PID/10898872_PID.pdf">
-        <img src="https://img.icons8.com/color/48/000000/document.png" width="48" height="48"/><br/>
-        <b>Project Initiation Document</b>
-      </a>
-    </td>
-    <td align="center">
-      <a href="Documentation/Interim/10898872_Interim_Report.pdf">
-        <img src="https://img.icons8.com/color/48/000000/documents.png" width="48" height="48"/><br/>
-        <b>Interim Report</b>
-      </a>
-    </td>
-    <td align="center">
-      <a href="Documentation/Poster/10898872_Poster.pdf">
-        <img src="https://img.icons8.com/color/48/000000/poster.png" width="48" height="48"/><br/>
-        <b>Project Poster</b>
-      </a>
-    </td>
-    <td align="center">
-      <a href="Documentation/Project_Proposal/PUSL3190 Project Proposal - 10898872.pdf">
-        <img src="https://img.icons8.com/color/48/000000/contract.png" width="48" height="48"/><br/>
-        <b>Project Proposal</b>
-      </a>
-    </td>
-  </tr>
-</table>
+  <table>
+    <tr>
+      <td align="center">
+        <a href="Documentation/Project_Proposal/PUSL3190 Project Proposal - 10898872.pdf">
+          <img src="coursegenix-ai-learning-studio/public/file.svg" height="48" /><br />
+          <b>Project Proposal</b>
+        </a>
+      </td>
+      <td align="center">
+        <a href="Documentation/PID/10898872_PID.pdf">
+          <img src="coursegenix-ai-learning-studio/public/file.svg" height="48" /><br />
+          <b>Project Initiation Document</b>
+        </a>
+      </td>
+      <td align="center">
+        <a href="Documentation/Interim/10898872_Interim_Report.pdf">
+          <img src="coursegenix-ai-learning-studio/public/file.svg" height="48" /><br />
+          <b>Interim Report</b>
+        </a>
+      </td>
+      <td align="center">
+        <a href="Documentation/Poster/10898872_Poster.pdf">
+          <img src="coursegenix-ai-learning-studio/public/file.svg" height="48" /><br />
+          <b>Project Poster</b>
+        </a>
+      </td>
+    </tr>
+  </table>
 </div>
 
 ## 🧩 Project Structure
 
 <details>
 <summary><b>Expand Project Structure</b></summary>
+<br>
 
 ```
 coursegenix-ai-learning-studio/
@@ -250,6 +273,7 @@ coursegenix-ai-learning-studio/
 
 <details>
 <summary><b>Expand Database Models</b></summary>
+<br>
 
 CourseGenix uses the following data models:
 
@@ -262,42 +286,27 @@ CourseGenix uses the following data models:
 
 </details>
 
-## ⚙️ Core Components
+## 🌟 Key Features Walkthrough
 
 <details>
-<summary><b>Frontend Components</b></summary>
+<summary><b>🧠 AI Course Generation</b></summary>
+<br>
 
-```
-src/components/
-├── AmbientBlobs.tsx          # Visual background effects
-├── ChapterCard.tsx           # Display for course chapters
-├── ConfirmChapters.tsx       # Chapter confirmation UI
-├── CourseSideBar.tsx         # Course navigation sidebar
-├── CreateCourseForm.tsx      # Course creation form
-├── GalleryCourseCard.tsx     # Course card for gallery view
-├── MainVideoSummary.tsx      # Video player with summary
-├── Navbar.tsx                # Main navigation component
-├── ParallaxFeature.tsx       # Parallax scrolling effects
-├── ProductShowcase.tsx       # Product demonstration module
-├── QuizCards.tsx             # Interactive quiz components
-└── ...
-```
+1. **Enter any topic** - From quantum physics to watercolor painting
+2. **Specify learning units** - Customize your learning path
+3. **Generate content** - AI creates comprehensive lessons
+4. **Review and refine** - Make adjustments as needed
+
 </details>
 
 <details>
-<summary><b>Backend Services</b></summary>
+<summary><b>📊 Learning Analytics</b></summary>
+<br>
 
-```
-src/lib/
-├── auth.ts          # Authentication service
-├── db.ts            # Database connection
-├── gpt.ts           # AI content generation
-├── stripe.ts        # Payment processing
-├── subscription.ts  # Subscription management
-├── unsplash.ts      # Image service integration
-├── utils.ts         # Utility functions
-└── youtube.ts       # YouTube API integration
-```
+- **Progress tracking** - Monitor your learning journey
+- **Quiz performance** - See your strengths and areas for improvement
+- **Learning insights** - Get personalized recommendations
+
 </details>
 
 ## 🤝 Contributing
@@ -323,13 +332,17 @@ See our [contribution guidelines](CONTRIBUTING.md) for more details.
 
 ## 📄 License
 
+<div align="center">
+  
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+</div>
 
 ## 📧 Contact
 
-B.A.C. Adeesh Perera - Creator and maintainer
-
 <div align="center">
+  
+B.A.C. Adeesh Perera - Creator and maintainer
 
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/adeeshperera)
 [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/adeeshperera)
@@ -342,6 +355,6 @@ B.A.C. Adeesh Perera - Creator and maintainer
 ---
 
 <div align="center">
-  <sub>© 2025 CourseGenix AI Learning Studio • Built with ❤️ by B.A.C. Adeesh Perera</sub>
+  <sub>Built with ❤️ by B.A.C. Adeesh Perera | © 2025 CourseGenix</sub>
 </div>
 
