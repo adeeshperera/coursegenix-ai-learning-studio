@@ -8,6 +8,8 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 [![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
 
+<img src="coursegenix-ai-learning-studio/public/Screenshot - CourseGenix AI Learning Studio.png" alt="CourseGenix AI Learning Studio" width="900" />
+
 </div>
 
 <p align="center">
@@ -26,12 +28,6 @@
 ## ✨ Overview
 
 CourseGenix revolutionizes education by harnessing AI to generate comprehensive learning experiences. Create personalized courses on any topic, complete with structured content, video recommendations, summaries, and interactive quizzes.
-
-<details>
-<summary><b>📸 Screenshots</b></summary>
-<br>
-<img src="coursegenix-ai-learning-studio/public/Screenshot - CourseGenix AI Learning Studio.png" alt="CourseGenix AI Learning Studio Screenshot" width="800" />
-</details>
 
 ## 🚀 Features
 
