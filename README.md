@@ -38,13 +38,13 @@ CourseGenix revolutionizes education by harnessing AI to generate comprehensive 
 
 <div align="center">
 
-| 🧠 **AI Content Generation**                                                                                       | 🎬 **Rich Media Integration**                                                                         |
+| <div align="center">🧠 **AI Content Generation**</div>                                                             | <div align="center">🎬 **Rich Media Integration**</div>                                               |
 | :----------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------- |
 | 🎯 **Create complete courses on any topic**<br/>Leverage advanced AI to generate comprehensive educational content | 📺 **YouTube video recommendations**<br/>Smart algorithm selects the most relevant educational videos |
 | 📚 **Auto-organized learning structure**<br/>Intelligent course organization with logical flow                     | 📝 **AI-generated summaries**<br/>Concise, actionable summaries for enhanced comprehension            |
 | 🔧 **Custom learning units**<br/>Flexible modules tailored to specific learning objectives                         | 🎯 **Interactive quizzes**<br/>Engaging assessments to reinforce learning outcomes                    |
 
-| 📱 **User Experience**                                                               | 🔒 **Authentication & Security**                                                   |
+| <div align="center">📱 **User Experience**</div>                                     | <div align="center">🔒 **Authentication & Security**</div>                         |
 | :----------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------- |
 | 🌐 **Responsive design**<br/>Seamless experience across all devices and screen sizes | 🔐 **Google login**<br/>Secure, one-click authentication with Google accounts      |
 | 🖼️ **Course gallery**<br/>Beautiful, intuitive interface for course discovery        | 🐙 **GitHub login**<br/>Developer-friendly GitHub OAuth integration                |
