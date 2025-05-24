@@ -37,20 +37,19 @@ CourseGenix revolutionizes education by harnessing AI to generate comprehensive 
 ## 🚀 Features
 
 <div align="center">
-
-<table>
+<table style="background-color: #1a1b26; border-radius: 8px; overflow: hidden; border-collapse: separate; border-spacing: 0; width: 100%; max-width: 900px;">
   <tr>
-    <td>
-      <h3>🧠 AI Content Generation</h3>
-      <ul>
+    <td style="padding: 20px; border: none; background-color: #1e1f2b; vertical-align: top;">
+      <h3 style="color: #f0f0f0; margin-top: 0;">🧠 AI Content Generation</h3>
+      <ul style="color: #d0d0d0; list-style-type: disc; padding-left: 20px;">
         <li>Create complete courses on any topic</li>
         <li>Auto-organized learning structure</li>
         <li>Custom learning units</li>
       </ul>
     </td>
-    <td>
-      <h3>🎬 Rich Media Integration</h3>
-      <ul>
+    <td style="padding: 20px; border: none; background-color: #1e1f2b; vertical-align: top;">
+      <h3 style="color: #f0f0f0; margin-top: 0;">🎬 Rich Media Integration</h3>
+      <ul style="color: #d0d0d0; list-style-type: disc; padding-left: 20px;">
         <li>YouTube video recommendations</li>
         <li>AI-generated summaries</li>
         <li>Interactive quizzes</li>
@@ -58,17 +57,17 @@ CourseGenix revolutionizes education by harnessing AI to generate comprehensive 
     </td>
   </tr>
   <tr>
-    <td>
-      <h3>📱 User Experience</h3>
-      <ul>
+    <td style="padding: 20px; border: none; background-color: #1e1f2b; vertical-align: top;">
+      <h3 style="color: #f0f0f0; margin-top: 0;">📱 User Experience</h3>
+      <ul style="color: #d0d0d0; list-style-type: disc; padding-left: 20px;">
         <li>Responsive design</li>
         <li>Course gallery</li>
         <li>Dark/Light mode</li>
       </ul>
     </td>
-    <td>
-      <h3>🔒 Authentication</h3>
-      <ul>
+    <td style="padding: 20px; border: none; background-color: #1e1f2b; vertical-align: top;">
+      <h3 style="color: #f0f0f0; margin-top: 0;">🔒 Authentication</h3>
+      <ul style="color: #d0d0d0; list-style-type: disc; padding-left: 20px;">
         <li>Google login</li>
         <li>GitHub login</li>
         <li>Secure user accounts</li>
@@ -76,7 +75,6 @@ CourseGenix revolutionizes education by harnessing AI to generate comprehensive 
     </td>
   </tr>
 </table>
-
 </div>
 
 ### 🎯 Intelligent Video Selection Algorithm
