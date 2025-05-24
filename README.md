@@ -37,46 +37,80 @@ CourseGenix revolutionizes education by harnessing AI to generate comprehensive 
 ## 🚀 Features
 
 <div align="center">
-
-<table>
+<table style="background-color: #111827; border-radius: 8px; overflow: hidden; border-collapse: separate; border-spacing: 0; width: 100%; max-width: 800px; margin: 0 auto; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);">
   <tr>
-    <td>
-      <h3>🧠 AI Content Generation</h3>
-      <ul>
-        <li>Create complete courses on any topic</li>
-        <li>Auto-organized learning structure</li>
-        <li>Custom learning units</li>
+    <td style="padding: 20px 24px; border: none; background-color: #1f2937; vertical-align: top; border-bottom: 1px solid #374151; border-right: 1px solid #374151;">
+      <h3 style="color: #f3f4f6; margin-bottom: 16px; font-size: 1.25rem; font-weight: 600; letter-spacing: -0.025em; display: flex; align-items: center;">
+        <span style="display: inline-flex; align-items: center; justify-content: center; background-color: rgba(248, 113, 113, 0.2); color: #f87171; width: 32px; height: 32px; border-radius: 6px; margin-right: 12px;">🧠</span>
+        AI Content Generation
+      </h3>
+      <ul style="color: #d1d5db; list-style-type: none; padding-left: 8px; margin: 0;">
+        <li style="margin-bottom: 8px; display: flex; align-items: center;">
+          <span style="color: #9CA3AF; margin-right: 8px;">•</span> Create complete courses on any topic
+        </li>
+        <li style="margin-bottom: 8px; display: flex; align-items: center;">
+          <span style="color: #9CA3AF; margin-right: 8px;">•</span> Auto-organized learning structure
+        </li>
+        <li style="display: flex; align-items: center;">
+          <span style="color: #9CA3AF; margin-right: 8px;">•</span> Custom learning units
+        </li>
       </ul>
     </td>
-    <td>
-      <h3>🎬 Rich Media Integration</h3>
-      <ul>
-        <li>YouTube video recommendations</li>
-        <li>AI-generated summaries</li>
-        <li>Interactive quizzes</li>
+    <td style="padding: 20px 24px; border: none; background-color: #1f2937; vertical-align: top; border-bottom: 1px solid #374151;">
+      <h3 style="color: #f3f4f6; margin-bottom: 16px; font-size: 1.25rem; font-weight: 600; letter-spacing: -0.025em; display: flex; align-items: center;">
+        <span style="display: inline-flex; align-items: center; justify-content: center; background-color: rgba(156, 163, 175, 0.2); color: #d1d5db; width: 32px; height: 32px; border-radius: 6px; margin-right: 12px;">🎬</span>
+        Rich Media Integration
+      </h3>
+      <ul style="color: #d1d5db; list-style-type: none; padding-left: 8px; margin: 0;">
+        <li style="margin-bottom: 8px; display: flex; align-items: center;">
+          <span style="color: #9CA3AF; margin-right: 8px;">•</span> YouTube video recommendations
+        </li>
+        <li style="margin-bottom: 8px; display: flex; align-items: center;">
+          <span style="color: #9CA3AF; margin-right: 8px;">•</span> AI-generated summaries
+        </li>
+        <li style="display: flex; align-items: center;">
+          <span style="color: #9CA3AF; margin-right: 8px;">•</span> Interactive quizzes
+        </li>
       </ul>
     </td>
   </tr>
   <tr>
-    <td>
-      <h3>📱 User Experience</h3>
-      <ul>
-        <li>Responsive design</li>
-        <li>Course gallery</li>
-        <li>Dark/Light mode</li>
+    <td style="padding: 20px 24px; border: none; background-color: #1f2937; vertical-align: top; border-right: 1px solid #374151;">
+      <h3 style="color: #f3f4f6; margin-bottom: 16px; font-size: 1.25rem; font-weight: 600; letter-spacing: -0.025em; display: flex; align-items: center;">
+        <span style="display: inline-flex; align-items: center; justify-content: center; background-color: rgba(251, 191, 36, 0.2); color: #fbbf24; width: 32px; height: 32px; border-radius: 6px; margin-right: 12px;">📱</span>
+        User Experience
+      </h3>
+      <ul style="color: #d1d5db; list-style-type: none; padding-left: 8px; margin: 0;">
+        <li style="margin-bottom: 8px; display: flex; align-items: center;">
+          <span style="color: #9CA3AF; margin-right: 8px;">•</span> Responsive design
+        </li>
+        <li style="margin-bottom: 8px; display: flex; align-items: center;">
+          <span style="color: #9CA3AF; margin-right: 8px;">•</span> Course gallery
+        </li>
+        <li style="display: flex; align-items: center;">
+          <span style="color: #9CA3AF; margin-right: 8px;">•</span> Dark/Light mode
+        </li>
       </ul>
     </td>
-    <td>
-      <h3>🔒 Authentication</h3>
-      <ul>
-        <li>Google login</li>
-        <li>GitHub login</li>
-        <li>Secure user accounts</li>
+    <td style="padding: 20px 24px; border: none; background-color: #1f2937; vertical-align: top;">
+      <h3 style="color: #f3f4f6; margin-bottom: 16px; font-size: 1.25rem; font-weight: 600; letter-spacing: -0.025em; display: flex; align-items: center;">
+        <span style="display: inline-flex; align-items: center; justify-content: center; background-color: rgba(245, 158, 11, 0.2); color: #f59e0b; width: 32px; height: 32px; border-radius: 6px; margin-right: 12px;">🔒</span>
+        Authentication
+      </h3>
+      <ul style="color: #d1d5db; list-style-type: none; padding-left: 8px; margin: 0;">
+        <li style="margin-bottom: 8px; display: flex; align-items: center;">
+          <span style="color: #9CA3AF; margin-right: 8px;">•</span> Google login
+        </li>
+        <li style="margin-bottom: 8px; display: flex; align-items: center;">
+          <span style="color: #9CA3AF; margin-right: 8px;">•</span> GitHub login
+        </li>
+        <li style="display: flex; align-items: center;">
+          <span style="color: #9CA3AF; margin-right: 8px;">•</span> Secure user accounts
+        </li>
       </ul>
     </td>
   </tr>
 </table>
-
 </div>
 
 ### 🎯 Intelligent Video Selection Algorithm
