@@ -38,17 +38,151 @@ CourseGenix revolutionizes education by harnessing AI to generate comprehensive 
 
 <div align="center">
 
-| <div align="center">🧠 **AI Content Generation**</div>                                                             | <div align="center">🎬 **Rich Media Integration**</div>                                               |
-| :----------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------- |
-| 🎯 **Create complete courses on any topic**<br/>Leverage advanced AI to generate comprehensive educational content | 📺 **YouTube video recommendations**<br/>Smart algorithm selects the most relevant educational videos |
-| 📚 **Auto-organized learning structure**<br/>Intelligent course organization with logical flow                     | 📝 **AI-generated summaries**<br/>Concise, actionable summaries for enhanced comprehension            |
-| 🔧 **Custom learning units**<br/>Flexible modules tailored to specific learning objectives                         | 🎯 **Interactive quizzes**<br/>Engaging assessments to reinforce learning outcomes                    |
-
-| <div align="center">📱 **User Experience**</div>                                     | <div align="center">🔒 **Authentication & Security**</div>                         |
-| :----------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------- |
-| 🌐 **Responsive design**<br/>Seamless experience across all devices and screen sizes | 🔐 **Google login**<br/>Secure, one-click authentication with Google accounts      |
-| 🖼️ **Course gallery**<br/>Beautiful, intuitive interface for course discovery        | 🐙 **GitHub login**<br/>Developer-friendly GitHub OAuth integration                |
-| 🌙 **Dark/Light mode**<br/>Comfortable viewing experience for any preference         | 🛡️ **Secure user accounts**<br/>Enterprise-grade security for user data protection |
+<table width="100%" style="border-collapse: collapse; border: 1px solid #1a1a2e; background-color: #0f0f23;">
+  <tr>
+    <th align="center" style="border: 1px solid #1a1a2e; padding: 12px; background-color: #121228;">
+      🧠 AI Content Generation
+    </th>
+    <th align="center" style="border: 1px solid #1a1a2e; padding: 12px; background-color: #121228;">
+      🎬 Rich Media Integration
+    </th>
+  </tr>
+  
+  <tr>
+    <td style="border: 1px solid #1a1a2e; padding: 15px;">
+      <div style="display: flex; align-items: center;">
+        <span style="margin-right: 10px;">🎯</span>
+        <div>
+          <strong>Create complete courses on any topic</strong>
+          <p>Leverage advanced AI to generate comprehensive educational content</p>
+        </div>
+      </div>
+    </td>
+    <td style="border: 1px solid #1a1a2e; padding: 15px;">
+      <div style="display: flex; align-items: center;">
+        <span style="margin-right: 10px;">📺</span>
+        <div>
+          <strong>YouTube video recommendations</strong>
+          <p>Smart algorithm selects the most relevant educational videos</p>
+        </div>
+      </div>
+    </td>
+  </tr>
+  
+  <tr>
+    <td style="border: 1px solid #1a1a2e; padding: 15px;">
+      <div style="display: flex; align-items: center;">
+        <span style="margin-right: 10px;">📚</span>
+        <div>
+          <strong>Auto-organized learning structure</strong>
+          <p>Intelligent course organization with logical flow</p>
+        </div>
+      </div>
+    </td>
+    <td style="border: 1px solid #1a1a2e; padding: 15px;">
+      <div style="display: flex; align-items: center;">
+        <span style="margin-right: 10px;">📝</span>
+        <div>
+          <strong>AI-generated summaries</strong>
+          <p>Concise, actionable summaries for enhanced comprehension</p>
+        </div>
+      </div>
+    </td>
+  </tr>
+  
+  <tr>
+    <td style="border: 1px solid #1a1a2e; padding: 15px;">
+      <div style="display: flex; align-items: center;">
+        <span style="margin-right: 10px;">🔧</span>
+        <div>
+          <strong>Custom learning units</strong>
+          <p>Flexible modules tailored to specific learning objectives</p>
+        </div>
+      </div>
+    </td>
+    <td style="border: 1px solid #1a1a2e; padding: 15px;">
+      <div style="display: flex; align-items: center;">
+        <span style="margin-right: 10px;">🎯</span>
+        <div>
+          <strong>Interactive quizzes</strong>
+          <p>Engaging assessments to reinforce learning outcomes</p>
+        </div>
+      </div>
+    </td>
+  </tr>
+  
+  <tr>
+    <th align="center" style="border: 1px solid #1a1a2e; padding: 12px; background-color: #121228;">
+      📱 User Experience
+    </th>
+    <th align="center" style="border: 1px solid #1a1a2e; padding: 12px; background-color: #121228;">
+      🔒 Authentication & Security
+    </th>
+  </tr>
+  
+  <tr>
+    <td style="border: 1px solid #1a1a2e; padding: 15px;">
+      <div style="display: flex; align-items: center;">
+        <span style="margin-right: 10px;">🌐</span>
+        <div>
+          <strong>Responsive design</strong>
+          <p>Seamless experience across all devices and screen sizes</p>
+        </div>
+      </div>
+    </td>
+    <td style="border: 1px solid #1a1a2e; padding: 15px;">
+      <div style="display: flex; align-items: center;">
+        <span style="margin-right: 10px;">🔐</span>
+        <div>
+          <strong>Google login</strong>
+          <p>Secure, one-click authentication with Google accounts</p>
+        </div>
+      </div>
+    </td>
+  </tr>
+  
+  <tr>
+    <td style="border: 1px solid #1a1a2e; padding: 15px;">
+      <div style="display: flex; align-items: center;">
+        <span style="margin-right: 10px;">🖼️</span>
+        <div>
+          <strong>Course gallery</strong>
+          <p>Beautiful, intuitive interface for course discovery</p>
+        </div>
+      </div>
+    </td>
+    <td style="border: 1px solid #1a1a2e; padding: 15px;">
+      <div style="display: flex; align-items: center;">
+        <span style="margin-right: 10px;">🐙</span>
+        <div>
+          <strong>GitHub login</strong>
+          <p>Developer-friendly GitHub OAuth integration</p>
+        </div>
+      </div>
+    </td>
+  </tr>
+  
+  <tr>
+    <td style="border: 1px solid #1a1a2e; padding: 15px;">
+      <div style="display: flex; align-items: center;">
+        <span style="margin-right: 10px;">🌙</span>
+        <div>
+          <strong>Dark/Light mode</strong>
+          <p>Comfortable viewing experience for any preference</p>
+        </div>
+      </div>
+    </td>
+    <td style="border: 1px solid #1a1a2e; padding: 15px;">
+      <div style="display: flex; align-items: center;">
+        <span style="margin-right: 10px;">🛡️</span>
+        <div>
+          <strong>Secure user accounts</strong>
+          <p>Enterprise-grade security for user data protection</p>
+        </div>
+      </div>
+    </td>
+  </tr>
+</table>
 
 </div>
 
