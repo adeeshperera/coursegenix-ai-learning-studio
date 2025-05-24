@@ -36,6 +36,8 @@ CourseGenix revolutionizes education by harnessing AI to generate comprehensive 
 
 ## 🚀 Features
 
+<div align="center">
+
 <table>
   <tr>
     <td>
@@ -74,6 +76,8 @@ CourseGenix revolutionizes education by harnessing AI to generate comprehensive 
     </td>
   </tr>
 </table>
+
+</div>
 
 ### 🎯 Intelligent Video Selection Algorithm
 
