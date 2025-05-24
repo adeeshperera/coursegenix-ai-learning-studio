@@ -8,7 +8,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 [![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
 
-<img src="coursegenix-ai-learning-studio/public/Screenshot - CourseGenix AI Learning Studio.png" alt="CourseGenix AI Learning Studio" width="900" />
+<img src="Documentation/Poster/10898872_Poster.png" alt="CourseGenix AI Learning Studio" width="900" />
 
 </div>
 
@@ -74,14 +74,14 @@ CourseGenix revolutionizes education by harnessing AI to generate comprehensive 
 
 <div align="center">
 
-| 🔧 **Frontend**  | 🔙 **Backend** | 🗃️ **Database** | 🔌 **Integration** |
-|:---------------:|:-------------:|:---------------:|:------------------:|
-| Next.js 15      | Next.js API Routes | PostgreSQL   | OpenAI/X.AI        |
-| React           | Prisma ORM     | Prisma Schema   | YouTube API        |
-| TypeScript      | NextAuth.js    | Database Models | Unsplash API       |
-| Tailwind CSS    | Stripe API     | Migrations      | Stripe Payment     |
-| Shadcn/UI       | Docker         | Relations       | OAuth2 (Google/GitHub) |
-| Framer Motion   | Environment Config | Indexing    | API Integration    |
+| 🔧 **Frontend** |   🔙 **Backend**   | 🗃️ **Database** |   🔌 **Integration**   |
+| :-------------: | :----------------: | :-------------: | :--------------------: |
+|   Next.js 15    | Next.js API Routes |   PostgreSQL    |      OpenAI/X.AI       |
+|      React      |     Prisma ORM     |  Prisma Schema  |      YouTube API       |
+|   TypeScript    |    NextAuth.js     | Database Models |      Unsplash API      |
+|  Tailwind CSS   |     Stripe API     |   Migrations    |     Stripe Payment     |
+|    Shadcn/UI    |       Docker       |    Relations    | OAuth2 (Google/GitHub) |
+|  Framer Motion  | Environment Config |    Indexing     |    API Integration     |
 
 </div>
 
@@ -200,6 +200,7 @@ coursegenix-ai-learning-studio/
     ├── lib/              # Utility functions
     └── validators/       # Input validation
 ```
+
 </details>
 
 ## 💾 Database Schema
@@ -261,4 +262,3 @@ B.A.C. Adeesh Perera - Creator and maintainer
 <div align="center">
   <sub>Built with ❤️ by B.A.C. Adeesh Perera</sub>
 </div>
-
