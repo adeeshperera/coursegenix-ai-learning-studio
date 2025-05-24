@@ -36,119 +36,91 @@ CourseGenix revolutionizes education by harnessing AI to generate comprehensive 
 
 ## 🚀 Features
 
-<div align="center">
-
-<table width="100%" style="border-collapse: collapse; border: 1px solid #1a1a2e; background-color: #0f0f23;">
+<table>
   <tr>
-    <th align="center" style="border: 1px solid #1a1a2e; padding: 12px; background-color: #121228;">
+    <th align="center" bgcolor="#121228">
       🧠 AI Content Generation
     </th>
-    <th align="center" style="border: 1px solid #1a1a2e; padding: 12px; background-color: #121228;">
+    <th align="center" bgcolor="#121228">
       🎬 Rich Media Integration
     </th>
   </tr>
   
   <tr>
-    <td style="border: 1px solid #1a1a2e; padding: 15px;">
-      <div>
-        <strong>Create complete courses on any topic</strong>
-        <p>Leverage advanced AI to generate comprehensive educational content</p>
-      </div>
+    <td>
+      <strong>Create complete courses on any topic</strong><br/>
+      Leverage advanced AI to generate comprehensive educational content
     </td>
-    <td style="border: 1px solid #1a1a2e; padding: 15px;">
-      <div>
-        <strong>YouTube video recommendations</strong>
-        <p>Smart algorithm selects the most relevant educational videos</p>
-      </div>
+    <td>
+      <strong>YouTube video recommendations</strong><br/>
+      Smart algorithm selects the most relevant educational videos
     </td>
   </tr>
   
   <tr>
-    <td style="border: 1px solid #1a1a2e; padding: 15px;">
-      <div>
-        <strong>Auto-organized learning structure</strong>
-        <p>Intelligent course organization with logical flow</p>
-      </div>
+    <td>
+      <strong>Auto-organized learning structure</strong><br/>
+      Intelligent course organization with logical flow
     </td>
-    <td style="border: 1px solid #1a1a2e; padding: 15px;">
-      <div>
-        <strong>AI-generated summaries</strong>
-        <p>Concise, actionable summaries for enhanced comprehension</p>
-      </div>
+    <td>
+      <strong>AI-generated summaries</strong><br/>
+      Concise, actionable summaries for enhanced comprehension
     </td>
   </tr>
   
   <tr>
-    <td style="border: 1px solid #1a1a2e; padding: 15px;">
-      <div>
-        <strong>Custom learning units</strong>
-        <p>Flexible modules tailored to specific learning objectives</p>
-      </div>
+    <td>
+      <strong>Custom learning units</strong><br/>
+      Flexible modules tailored to specific learning objectives
     </td>
-    <td style="border: 1px solid #1a1a2e; padding: 15px;">
-      <div>
-        <strong>Interactive quizzes</strong>
-        <p>Engaging assessments to reinforce learning outcomes</p>
-      </div>
+    <td>
+      <strong>Interactive quizzes</strong><br/>
+      Engaging assessments to reinforce learning outcomes
     </td>
   </tr>
   
   <tr>
-    <th align="center" style="border: 1px solid #1a1a2e; padding: 12px; background-color: #121228;">
+    <th align="center" bgcolor="#121228">
       📱 User Experience
     </th>
-    <th align="center" style="border: 1px solid #1a1a2e; padding: 12px; background-color: #121228;">
+    <th align="center" bgcolor="#121228">
       🔒 Authentication & Security
     </th>
   </tr>
   
   <tr>
-    <td style="border: 1px solid #1a1a2e; padding: 15px;">
-      <div>
-        <strong>Responsive design</strong>
-        <p>Seamless experience across all devices and screen sizes</p>
-      </div>
+    <td>
+      <strong>Responsive design</strong><br/>
+      Seamless experience across all devices and screen sizes
     </td>
-    <td style="border: 1px solid #1a1a2e; padding: 15px;">
-      <div>
-        <strong>Google login</strong>
-        <p>Secure, one-click authentication with Google accounts</p>
-      </div>
+    <td>
+      <strong>Google login</strong><br/>
+      Secure, one-click authentication with Google accounts
     </td>
   </tr>
   
   <tr>
-    <td style="border: 1px solid #1a1a2e; padding: 15px;">
-      <div>
-        <strong>Course gallery</strong>
-        <p>Beautiful, intuitive interface for course discovery</p>
-      </div>
+    <td>
+      <strong>Course gallery</strong><br/>
+      Beautiful, intuitive interface for course discovery
     </td>
-    <td style="border: 1px solid #1a1a2e; padding: 15px;">
-      <div>
-        <strong>GitHub login</strong>
-        <p>Developer-friendly GitHub OAuth integration</p>
-      </div>
+    <td>
+      <strong>GitHub login</strong><br/>
+      Developer-friendly GitHub OAuth integration
     </td>
   </tr>
   
   <tr>
-    <td style="border: 1px solid #1a1a2e; padding: 15px;">
-      <div>
-        <strong>Dark/Light mode</strong>
-        <p>Comfortable viewing experience for any preference</p>
-      </div>
+    <td>
+      <strong>Dark/Light mode</strong><br/>
+      Comfortable viewing experience for any preference
     </td>
-    <td style="border: 1px solid #1a1a2e; padding: 15px;">
-      <div>
-        <strong>Secure user accounts</strong>
-        <p>Enterprise-grade security for user data protection</p>
-      </div>
+    <td>
+      <strong>Secure user accounts</strong><br/>
+      Enterprise-grade security for user data protection
     </td>
   </tr>
 </table>
-
-</div>
 
 ### 🎯 Intelligent Video Selection Algorithm
 
