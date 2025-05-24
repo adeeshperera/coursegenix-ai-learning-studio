@@ -38,29 +38,39 @@ CourseGenix revolutionizes education by harnessing AI to generate comprehensive 
 
 <div align="center">
 
-### 🧠 AI Content Generation
+---
 
-✅ Create complete courses on any topic  
-✅ Auto-organized learning structure  
-✅ Custom learning units
+### 🧠 **AI Content Generation**
 
-### 🎬 Rich Media Integration
+🎯 **Create complete courses on any topic** - Leverage advanced AI to generate comprehensive educational content  
+📚 **Auto-organized learning structure** - Intelligent course organization with logical flow  
+🔧 **Custom learning units** - Flexible modules tailored to specific learning objectives
 
-✅ YouTube video recommendations  
-✅ AI-generated summaries  
-✅ Interactive quizzes
+---
 
-### 📱 User Experience
+### 🎬 **Rich Media Integration**
 
-✅ Responsive design  
-✅ Course gallery  
-✅ Dark/Light mode
+📺 **YouTube video recommendations** - Smart algorithm selects the most relevant educational videos  
+📝 **AI-generated summaries** - Concise, actionable summaries for enhanced comprehension  
+🎯 **Interactive quizzes** - Engaging assessments to reinforce learning outcomes
 
-### 🔒 Authentication
+---
 
-✅ Google login  
-✅ GitHub login  
-✅ Secure user accounts
+### 📱 **User Experience**
+
+🌐 **Responsive design** - Seamless experience across all devices and screen sizes  
+🖼️ **Course gallery** - Beautiful, intuitive interface for course discovery  
+🌙 **Dark/Light mode** - Comfortable viewing experience for any preference
+
+---
+
+### 🔒 **Authentication & Security**
+
+🔐 **Google login** - Secure, one-click authentication with Google accounts  
+🐙 **GitHub login** - Developer-friendly GitHub OAuth integration  
+🛡️ **Secure user accounts** - Enterprise-grade security for user data protection
+
+---
 
 </div>
 
