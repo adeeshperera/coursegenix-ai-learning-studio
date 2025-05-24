@@ -75,6 +75,29 @@ CourseGenix revolutionizes education by harnessing AI to generate comprehensive 
   </tr>
 </table>
 
+### 🎯 Intelligent Video Selection Algorithm
+
+CourseGenix employs a sophisticated **multi-factor scoring algorithm** to automatically select the most relevant and high-quality YouTube videos for each course chapter:
+
+**🔍 Selection Process:**
+
+1. **Initial Search** - Searches YouTube API for medium-duration, embeddable videos in English
+2. **Statistics Gathering** - Retrieves view counts, like counts, and engagement metrics
+3. **Multi-Factor Scoring** - Calculates a composite score based on:
+   - **View Count (40%)** - Uses logarithmic scaling to balance popularity
+   - **Engagement Ratio (30%)** - Likes-to-views ratio indicating content quality
+   - **Title Relevance (20%)** - Exact keyword matching in video titles
+   - **Description Match (10%)** - Keyword presence in video descriptions
+
+**🎯 Quality Assurance:**
+
+- Automatically filters for embeddable videos
+- Prioritizes educational value through engagement metrics
+- Ensures topical relevance through keyword matching
+- Returns the highest-scoring video for optimal learning experience
+
+This intelligent curation ensures students receive the most valuable and relevant video content for their learning journey.
+
 ## 🧠 Technology Stack
 
 <div align="center">
