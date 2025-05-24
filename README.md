@@ -38,39 +38,17 @@ CourseGenix revolutionizes education by harnessing AI to generate comprehensive 
 
 <div align="center">
 
----
+| 🧠 **AI Content Generation**                                                                                       | 🎬 **Rich Media Integration**                                                                         |
+| :----------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------- |
+| 🎯 **Create complete courses on any topic**<br/>Leverage advanced AI to generate comprehensive educational content | 📺 **YouTube video recommendations**<br/>Smart algorithm selects the most relevant educational videos |
+| 📚 **Auto-organized learning structure**<br/>Intelligent course organization with logical flow                     | 📝 **AI-generated summaries**<br/>Concise, actionable summaries for enhanced comprehension            |
+| 🔧 **Custom learning units**<br/>Flexible modules tailored to specific learning objectives                         | 🎯 **Interactive quizzes**<br/>Engaging assessments to reinforce learning outcomes                    |
 
-### 🧠 **AI Content Generation**
-
-🎯 **Create complete courses on any topic** - Leverage advanced AI to generate comprehensive educational content  
-📚 **Auto-organized learning structure** - Intelligent course organization with logical flow  
-🔧 **Custom learning units** - Flexible modules tailored to specific learning objectives
-
----
-
-### 🎬 **Rich Media Integration**
-
-📺 **YouTube video recommendations** - Smart algorithm selects the most relevant educational videos  
-📝 **AI-generated summaries** - Concise, actionable summaries for enhanced comprehension  
-🎯 **Interactive quizzes** - Engaging assessments to reinforce learning outcomes
-
----
-
-### 📱 **User Experience**
-
-🌐 **Responsive design** - Seamless experience across all devices and screen sizes  
-🖼️ **Course gallery** - Beautiful, intuitive interface for course discovery  
-🌙 **Dark/Light mode** - Comfortable viewing experience for any preference
-
----
-
-### 🔒 **Authentication & Security**
-
-🔐 **Google login** - Secure, one-click authentication with Google accounts  
-🐙 **GitHub login** - Developer-friendly GitHub OAuth integration  
-🛡️ **Secure user accounts** - Enterprise-grade security for user data protection
-
----
+| 📱 **User Experience**                                                               | 🔒 **Authentication & Security**                                                   |
+| :----------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------- |
+| 🌐 **Responsive design**<br/>Seamless experience across all devices and screen sizes | 🔐 **Google login**<br/>Secure, one-click authentication with Google accounts      |
+| 🖼️ **Course gallery**<br/>Beautiful, intuitive interface for course discovery        | 🐙 **GitHub login**<br/>Developer-friendly GitHub OAuth integration                |
+| 🌙 **Dark/Light mode**<br/>Comfortable viewing experience for any preference         | 🛡️ **Secure user accounts**<br/>Enterprise-grade security for user data protection |
 
 </div>
 
