@@ -50,63 +50,45 @@ CourseGenix revolutionizes education by harnessing AI to generate comprehensive 
   
   <tr>
     <td style="border: 1px solid #1a1a2e; padding: 15px;">
-      <div style="display: flex; align-items: center;">
-        <span style="margin-right: 10px;">🎯</span>
-        <div>
-          <strong>Create complete courses on any topic</strong>
-          <p>Leverage advanced AI to generate comprehensive educational content</p>
-        </div>
+      <div>
+        <strong>Create complete courses on any topic</strong>
+        <p>Leverage advanced AI to generate comprehensive educational content</p>
       </div>
     </td>
     <td style="border: 1px solid #1a1a2e; padding: 15px;">
-      <div style="display: flex; align-items: center;">
-        <span style="margin-right: 10px;">📺</span>
-        <div>
-          <strong>YouTube video recommendations</strong>
-          <p>Smart algorithm selects the most relevant educational videos</p>
-        </div>
+      <div>
+        <strong>YouTube video recommendations</strong>
+        <p>Smart algorithm selects the most relevant educational videos</p>
       </div>
     </td>
   </tr>
   
   <tr>
     <td style="border: 1px solid #1a1a2e; padding: 15px;">
-      <div style="display: flex; align-items: center;">
-        <span style="margin-right: 10px;">📚</span>
-        <div>
-          <strong>Auto-organized learning structure</strong>
-          <p>Intelligent course organization with logical flow</p>
-        </div>
+      <div>
+        <strong>Auto-organized learning structure</strong>
+        <p>Intelligent course organization with logical flow</p>
       </div>
     </td>
     <td style="border: 1px solid #1a1a2e; padding: 15px;">
-      <div style="display: flex; align-items: center;">
-        <span style="margin-right: 10px;">📝</span>
-        <div>
-          <strong>AI-generated summaries</strong>
-          <p>Concise, actionable summaries for enhanced comprehension</p>
-        </div>
+      <div>
+        <strong>AI-generated summaries</strong>
+        <p>Concise, actionable summaries for enhanced comprehension</p>
       </div>
     </td>
   </tr>
   
   <tr>
     <td style="border: 1px solid #1a1a2e; padding: 15px;">
-      <div style="display: flex; align-items: center;">
-        <span style="margin-right: 10px;">🔧</span>
-        <div>
-          <strong>Custom learning units</strong>
-          <p>Flexible modules tailored to specific learning objectives</p>
-        </div>
+      <div>
+        <strong>Custom learning units</strong>
+        <p>Flexible modules tailored to specific learning objectives</p>
       </div>
     </td>
     <td style="border: 1px solid #1a1a2e; padding: 15px;">
-      <div style="display: flex; align-items: center;">
-        <span style="margin-right: 10px;">🎯</span>
-        <div>
-          <strong>Interactive quizzes</strong>
-          <p>Engaging assessments to reinforce learning outcomes</p>
-        </div>
+      <div>
+        <strong>Interactive quizzes</strong>
+        <p>Engaging assessments to reinforce learning outcomes</p>
       </div>
     </td>
   </tr>
@@ -122,63 +104,45 @@ CourseGenix revolutionizes education by harnessing AI to generate comprehensive 
   
   <tr>
     <td style="border: 1px solid #1a1a2e; padding: 15px;">
-      <div style="display: flex; align-items: center;">
-        <span style="margin-right: 10px;">🌐</span>
-        <div>
-          <strong>Responsive design</strong>
-          <p>Seamless experience across all devices and screen sizes</p>
-        </div>
+      <div>
+        <strong>Responsive design</strong>
+        <p>Seamless experience across all devices and screen sizes</p>
       </div>
     </td>
     <td style="border: 1px solid #1a1a2e; padding: 15px;">
-      <div style="display: flex; align-items: center;">
-        <span style="margin-right: 10px;">🔐</span>
-        <div>
-          <strong>Google login</strong>
-          <p>Secure, one-click authentication with Google accounts</p>
-        </div>
+      <div>
+        <strong>Google login</strong>
+        <p>Secure, one-click authentication with Google accounts</p>
       </div>
     </td>
   </tr>
   
   <tr>
     <td style="border: 1px solid #1a1a2e; padding: 15px;">
-      <div style="display: flex; align-items: center;">
-        <span style="margin-right: 10px;">🖼️</span>
-        <div>
-          <strong>Course gallery</strong>
-          <p>Beautiful, intuitive interface for course discovery</p>
-        </div>
+      <div>
+        <strong>Course gallery</strong>
+        <p>Beautiful, intuitive interface for course discovery</p>
       </div>
     </td>
     <td style="border: 1px solid #1a1a2e; padding: 15px;">
-      <div style="display: flex; align-items: center;">
-        <span style="margin-right: 10px;">🐙</span>
-        <div>
-          <strong>GitHub login</strong>
-          <p>Developer-friendly GitHub OAuth integration</p>
-        </div>
+      <div>
+        <strong>GitHub login</strong>
+        <p>Developer-friendly GitHub OAuth integration</p>
       </div>
     </td>
   </tr>
   
   <tr>
     <td style="border: 1px solid #1a1a2e; padding: 15px;">
-      <div style="display: flex; align-items: center;">
-        <span style="margin-right: 10px;">🌙</span>
-        <div>
-          <strong>Dark/Light mode</strong>
-          <p>Comfortable viewing experience for any preference</p>
-        </div>
+      <div>
+        <strong>Dark/Light mode</strong>
+        <p>Comfortable viewing experience for any preference</p>
       </div>
     </td>
     <td style="border: 1px solid #1a1a2e; padding: 15px;">
-      <div style="display: flex; align-items: center;">
-        <span style="margin-right: 10px;">🛡️</span>
-        <div>
-          <strong>Secure user accounts</strong>
-          <p>Enterprise-grade security for user data protection</p>
-        </div>
+      <div>
+        <strong>Secure user accounts</strong>
+        <p>Enterprise-grade security for user data protection</p>
       </div>
     </td>
   </tr>
