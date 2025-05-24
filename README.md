@@ -37,19 +37,23 @@ CourseGenix revolutionizes education by harnessing AI to generate comprehensive 
 ## 🚀 Features
 
 <div align="center">
-<table style="background-color: #1a1b26; border-radius: 8px; overflow: hidden; border-collapse: separate; border-spacing: 0; width: 100%; max-width: 900px;">
+<table style="background-color: #111827; border-radius: 6px; overflow: hidden; border-collapse: separate; border-spacing: 0; width: 100%; max-width: 800px; margin: 0 auto;">
   <tr>
-    <td style="padding: 20px; border: none; background-color: #1e1f2b; vertical-align: top;">
-      <h3 style="color: #f0f0f0; margin-top: 0;">🧠 AI Content Generation</h3>
-      <ul style="color: #d0d0d0; list-style-type: disc; padding-left: 20px;">
+    <td style="padding: 16px 24px; border: none; background-color: #1f2937; vertical-align: top; border-bottom: 1px solid #374151; border-right: 1px solid #374151;">
+      <h3 style="color: #f0f0f0; margin-bottom: 16px; display: flex; align-items: center; gap: 8px;">
+        <span style="color: #f87171;">🧠</span> AI Content Generation
+      </h3>
+      <ul style="color: #d1d5db; list-style-type: disc; padding-left: 20px; margin: 0;">
         <li>Create complete courses on any topic</li>
         <li>Auto-organized learning structure</li>
         <li>Custom learning units</li>
       </ul>
     </td>
-    <td style="padding: 20px; border: none; background-color: #1e1f2b; vertical-align: top;">
-      <h3 style="color: #f0f0f0; margin-top: 0;">🎬 Rich Media Integration</h3>
-      <ul style="color: #d0d0d0; list-style-type: disc; padding-left: 20px;">
+    <td style="padding: 16px 24px; border: none; background-color: #1f2937; vertical-align: top; border-bottom: 1px solid #374151;">
+      <h3 style="color: #f0f0f0; margin-bottom: 16px; display: flex; align-items: center; gap: 8px;">
+        <span style="color: #d1d5db;">🎬</span> Rich Media Integration
+      </h3>
+      <ul style="color: #d1d5db; list-style-type: disc; padding-left: 20px; margin: 0;">
         <li>YouTube video recommendations</li>
         <li>AI-generated summaries</li>
         <li>Interactive quizzes</li>
@@ -57,17 +61,21 @@ CourseGenix revolutionizes education by harnessing AI to generate comprehensive 
     </td>
   </tr>
   <tr>
-    <td style="padding: 20px; border: none; background-color: #1e1f2b; vertical-align: top;">
-      <h3 style="color: #f0f0f0; margin-top: 0;">📱 User Experience</h3>
-      <ul style="color: #d0d0d0; list-style-type: disc; padding-left: 20px;">
+    <td style="padding: 16px 24px; border: none; background-color: #1f2937; vertical-align: top; border-right: 1px solid #374151;">
+      <h3 style="color: #f0f0f0; margin-bottom: 16px; display: flex; align-items: center; gap: 8px;">
+        <span style="color: #fbbf24;">📱</span> User Experience
+      </h3>
+      <ul style="color: #d1d5db; list-style-type: disc; padding-left: 20px; margin: 0;">
         <li>Responsive design</li>
         <li>Course gallery</li>
         <li>Dark/Light mode</li>
       </ul>
     </td>
-    <td style="padding: 20px; border: none; background-color: #1e1f2b; vertical-align: top;">
-      <h3 style="color: #f0f0f0; margin-top: 0;">🔒 Authentication</h3>
-      <ul style="color: #d0d0d0; list-style-type: disc; padding-left: 20px;">
+    <td style="padding: 16px 24px; border: none; background-color: #1f2937; vertical-align: top;">
+      <h3 style="color: #f0f0f0; margin-bottom: 16px; display: flex; align-items: center; gap: 8px;">
+        <span style="color: #f59e0b;">🔒</span> Authentication
+      </h3>
+      <ul style="color: #d1d5db; list-style-type: disc; padding-left: 20px; margin: 0;">
         <li>Google login</li>
         <li>GitHub login</li>
         <li>Secure user accounts</li>
