@@ -37,17 +37,93 @@ CourseGenix revolutionizes education by harnessing AI to generate comprehensive 
 ## 🚀 Features
 
 <div align="center">
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 25px; max-width: 1200px; margin: 0 auto; padding: 20px;">
+    
+    <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 25px; border-radius: 15px; box-shadow: 0 8px 25px rgba(0,0,0,0.15); transition: transform 0.3s ease; color: white;">
+      <div style="text-align: center; margin-bottom: 20px;">
+        <div style="font-size: 2.5em; margin-bottom: 10px;">🧠</div>
+        <h3 style="margin: 0; font-size: 1.4em; font-weight: 600;">AI Content Generation</h3>
+      </div>
+      <div style="space-y: 12px;">
+        <div style="display: flex; align-items: center; margin-bottom: 12px;">
+          <span style="color: #ffd700; margin-right: 10px; font-weight: bold;">✓</span>
+          <span>Create complete courses on any topic</span>
+        </div>
+        <div style="display: flex; align-items: center; margin-bottom: 12px;">
+          <span style="color: #ffd700; margin-right: 10px; font-weight: bold;">✓</span>
+          <span>Auto-organized learning structure</span>
+        </div>
+        <div style="display: flex; align-items: center; margin-bottom: 12px;">
+          <span style="color: #ffd700; margin-right: 10px; font-weight: bold;">✓</span>
+          <span>Custom learning units</span>
+        </div>
+      </div>
+    </div>
 
-|  <h3>🧠 AI Content Generation</h3>   | <h3>🎬 Rich Media Integration</h3> |
-| :----------------------------------: | :--------------------------------: |
-| Create complete courses on any topic |   YouTube video recommendations    |
-|  Auto-organized learning structure   |       AI-generated summaries       |
-|        Custom learning units         |        Interactive quizzes         |
-|   **<h3>📱 User Experience</h3>**    |   **<h3>🔒 Authentication</h3>**   |
-|          Responsive design           |            Google login            |
-|            Course gallery            |            GitHub login            |
-|           Dark/Light mode            |        Secure user accounts        |
+    <div style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); padding: 25px; border-radius: 15px; box-shadow: 0 8px 25px rgba(0,0,0,0.15); transition: transform 0.3s ease; color: white;">
+      <div style="text-align: center; margin-bottom: 20px;">
+        <div style="font-size: 2.5em; margin-bottom: 10px;">🎬</div>
+        <h3 style="margin: 0; font-size: 1.4em; font-weight: 600;">Rich Media Integration</h3>
+      </div>
+      <div style="space-y: 12px;">
+        <div style="display: flex; align-items: center; margin-bottom: 12px;">
+          <span style="color: #ffd700; margin-right: 10px; font-weight: bold;">✓</span>
+          <span>YouTube video recommendations</span>
+        </div>
+        <div style="display: flex; align-items: center; margin-bottom: 12px;">
+          <span style="color: #ffd700; margin-right: 10px; font-weight: bold;">✓</span>
+          <span>AI-generated summaries</span>
+        </div>
+        <div style="display: flex; align-items: center; margin-bottom: 12px;">
+          <span style="color: #ffd700; margin-right: 10px; font-weight: bold;">✓</span>
+          <span>Interactive quizzes</span>
+        </div>
+      </div>
+    </div>
 
+    <div style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); padding: 25px; border-radius: 15px; box-shadow: 0 8px 25px rgba(0,0,0,0.15); transition: transform 0.3s ease; color: white;">
+      <div style="text-align: center; margin-bottom: 20px;">
+        <div style="font-size: 2.5em; margin-bottom: 10px;">📱</div>
+        <h3 style="margin: 0; font-size: 1.4em; font-weight: 600;">User Experience</h3>
+      </div>
+      <div style="space-y: 12px;">
+        <div style="display: flex; align-items: center; margin-bottom: 12px;">
+          <span style="color: #ffd700; margin-right: 10px; font-weight: bold;">✓</span>
+          <span>Responsive design</span>
+        </div>
+        <div style="display: flex; align-items: center; margin-bottom: 12px;">
+          <span style="color: #ffd700; margin-right: 10px; font-weight: bold;">✓</span>
+          <span>Course gallery</span>
+        </div>
+        <div style="display: flex; align-items: center; margin-bottom: 12px;">
+          <span style="color: #ffd700; margin-right: 10px; font-weight: bold;">✓</span>
+          <span>Dark/Light mode</span>
+        </div>
+      </div>
+    </div>
+
+    <div style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%); padding: 25px; border-radius: 15px; box-shadow: 0 8px 25px rgba(0,0,0,0.15); transition: transform 0.3s ease; color: white;">
+      <div style="text-align: center; margin-bottom: 20px;">
+        <div style="font-size: 2.5em; margin-bottom: 10px;">🔒</div>
+        <h3 style="margin: 0; font-size: 1.4em; font-weight: 600;">Authentication</h3>
+      </div>
+      <div style="space-y: 12px;">
+        <div style="display: flex; align-items: center; margin-bottom: 12px;">
+          <span style="color: #ffd700; margin-right: 10px; font-weight: bold;">✓</span>
+          <span>Google login</span>
+        </div>
+        <div style="display: flex; align-items: center; margin-bottom: 12px;">
+          <span style="color: #ffd700; margin-right: 10px; font-weight: bold;">✓</span>
+          <span>GitHub login</span>
+        </div>
+        <div style="display: flex; align-items: center; margin-bottom: 12px;">
+          <span style="color: #ffd700; margin-right: 10px; font-weight: bold;">✓</span>
+          <span>Secure user accounts</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
 </div>
 
 ### 🎯 Intelligent Video Selection Algorithm
