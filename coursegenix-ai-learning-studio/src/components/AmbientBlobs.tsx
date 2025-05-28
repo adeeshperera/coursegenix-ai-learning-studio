@@ -163,67 +163,73 @@ export const AmbientBlobs: React.FC = () => {
 
   // Automatically animate the blobs regardless of user interaction
   useEffect(() => {
-    // Auto animation sequence for blob 1 - more movement
-    const animateBlob1 = async () => {
-      while (true) {
-        await controls1.start({
-          scale: [1, 1.15, 1.18, 1.15, 1],
-          x: [0, 15, -10, 5, 0],
-          y: [0, -15, 5, -8, 0],
-          borderRadius: ["60% 40% 30% 70% / 60% 30% 70% 40%", "70% 30% 45% 55% / 50% 60% 40% 50%", "40% 60% 70% 30% / 40% 50% 50% 60%", "55% 45% 30% 70% / 70% 30% 60% 40%", "60% 40% 30% 70% / 60% 30% 70% 40%"],
-          transition: { duration: 3.5, ease: "easeInOut", repeat: Infinity, repeatType: "reverse" }
-        });
-      }
-    };
-    
-    // Auto animation for blob 2 - more movement
-    const animateBlob2 = async () => {
-      while (true) {
-        await controls2.start({
-          scale: [1, 1.12, 1, 0.92, 1],
-          x: [0, -12, 18, -5, 0],
-          y: [0, 8, 15, -10, 0],
-          borderRadius: ["70% 30% 50% 50% / 40% 40% 60% 60%", "50% 50% 70% 30% / 30% 50% 70% 50%", "30% 70% 70% 30% / 50% 50% 50% 50%", "40% 60% 50% 50% / 60% 40% 40% 60%", "70% 30% 50% 50% / 40% 40% 60% 60%"],
-          transition: { duration: 4, ease: "easeInOut", repeat: Infinity, repeatType: "reverse" }
-        });
-      }
-    };
-    
-    // Auto animation for blob 3 - more movement
-    const animateBlob3 = async () => {
-      while (true) {
-        await controls3.start({
-          scale: [1, 0.9, 1.12, 1.08, 1],
-          x: [0, 20, -15, 8, 0],
-          y: [0, 12, -8, -15, 0],
-          borderRadius: ["40% 60% 60% 40% / 60% 30% 70% 40%", "50% 50% 70% 30% / 40% 40% 60% 60%", "30% 70% 40% 60% / 50% 60% 40% 50%", "60% 40% 30% 70% / 40% 50% 50% 60%", "40% 60% 60% 40% / 60% 30% 70% 40%"],
-          transition: { duration: 4.2, ease: "easeInOut", repeat: Infinity, repeatType: "reverse" }
-        });
-      }
-    };
-    
-    // Auto animation for blob 4 - more movement
-    const animateBlob4 = async () => {
-      while (true) {
-        await controls4.start({
-          scale: [1, 1.14, 0.9, 1.1, 1],
-          x: [0, -18, -10, 12, 0],
-          y: [0, -10, 18, 10, 0],
-          borderRadius: ["50% 50% 50% 50% / 50% 50% 50% 50%", "60% 40% 50% 60% / 40% 60% 40% 60%", "40% 60% 30% 70% / 60% 40% 60% 40%", "60% 40% 70% 30% / 40% 60% 40% 60%", "50% 50% 50% 50% / 50% 50% 50% 50%"],
-          transition: { duration: 3.8, ease: "easeInOut", repeat: Infinity, repeatType: "reverse" }
-        });
-      }
-    };
+    // We'll use a mounted flag to ensure animations only start after component is mounted
+    let isMounted = true;
     
     // Slight delay before starting continuous animations to allow initial animation to complete
     const startAnimationsTimer = setTimeout(() => {
-      animateBlob1();
-      animateBlob2();
-      animateBlob3();
-      animateBlob4();
+      if (!isMounted) return;
+      
+      // Apply continuous animations directly with repeat: Infinity
+      // This avoids the while(true) loop that causes the error
+      controls1.start({
+        scale: [1, 1.15, 1.18, 1.15, 1],
+        x: [0, 15, -10, 5, 0],
+        y: [0, -15, 5, -8, 0],
+        borderRadius: ["60% 40% 30% 70% / 60% 30% 70% 40%", "70% 30% 45% 55% / 50% 60% 40% 50%", "40% 60% 70% 30% / 40% 50% 50% 60%", "55% 45% 30% 70% / 70% 30% 60% 40%", "60% 40% 30% 70% / 60% 30% 70% 40%"],
+        transition: { 
+          duration: 3.5, 
+          ease: "easeInOut", 
+          repeat: Infinity, 
+          repeatType: "reverse" 
+        }
+      });
+      
+      controls2.start({
+        scale: [1, 1.12, 1, 0.92, 1],
+        x: [0, -12, 18, -5, 0],
+        y: [0, 8, 15, -10, 0],
+        borderRadius: ["70% 30% 50% 50% / 40% 40% 60% 60%", "50% 50% 70% 30% / 30% 50% 70% 50%", "30% 70% 70% 30% / 50% 50% 50% 50%", "40% 60% 50% 50% / 60% 40% 40% 60%", "70% 30% 50% 50% / 40% 40% 60% 60%"],
+        transition: { 
+          duration: 4, 
+          ease: "easeInOut", 
+          repeat: Infinity, 
+          repeatType: "reverse" 
+        }
+      });
+      
+      controls3.start({
+        scale: [1, 0.9, 1.12, 1.08, 1],
+        x: [0, 20, -15, 8, 0],
+        y: [0, 12, -8, -15, 0],
+        borderRadius: ["40% 60% 60% 40% / 60% 30% 70% 40%", "50% 50% 70% 30% / 40% 40% 60% 60%", "30% 70% 40% 60% / 50% 60% 40% 50%", "60% 40% 30% 70% / 40% 50% 50% 60%", "40% 60% 60% 40% / 60% 30% 70% 40%"],
+        transition: { 
+          duration: 4.2, 
+          ease: "easeInOut", 
+          repeat: Infinity, 
+          repeatType: "reverse" 
+        }
+      });
+      
+      controls4.start({
+        scale: [1, 1.14, 0.9, 1.1, 1],
+        x: [0, -18, -10, 12, 0],
+        y: [0, -10, 18, 10, 0],
+        borderRadius: ["50% 50% 50% 50% / 50% 50% 50% 50%", "60% 40% 50% 60% / 40% 60% 40% 60%", "40% 60% 30% 70% / 60% 40% 60% 40%", "60% 40% 70% 30% / 40% 60% 40% 60%", "50% 50% 50% 50% / 50% 50% 50% 50%"],
+        transition: { 
+          duration: 3.8, 
+          ease: "easeInOut", 
+          repeat: Infinity, 
+          repeatType: "reverse" 
+        }
+      });
     }, 2500);
     
-    return () => clearTimeout(startAnimationsTimer);
+    // Clean up on unmount
+    return () => {
+      isMounted = false;
+      clearTimeout(startAnimationsTimer);
+    };
   }, [controls1, controls2, controls3, controls4]);
 
   return (
