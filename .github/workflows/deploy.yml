@@ -62,8 +62,8 @@ jobs:
           key: ${{ secrets.VPS_SSH_KEY }}
           script: |
             docker pull ${{ secrets.DOCKER_USERNAME }}/coursegenix-app:latest
-            docker stop coursegenix-container || true
-            docker rm coursegenix-container || true
+            sudo docker stop coursegenix-container || true
+            sudo docker rm coursegenix-container || true
             docker run -d -p 3000:3000 \
               -e STRIPE_API_KEY=${{ secrets.STRIPE_API_KEY }} \
               -e DATABASE_URL=${{ secrets.DATABASE_URL }} \
