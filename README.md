@@ -36,7 +36,7 @@ CourseGenix revolutionizes education by harnessing AI to generate comprehensive 
 
 ## 🚀 Features
 
-<<table width="100%">
+<table width="100%">
 
   <tr>
     <th align="center" width="50%" style="background-color: #121228; color: white; padding: 12px;">
