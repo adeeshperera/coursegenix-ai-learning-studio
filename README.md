@@ -36,7 +36,97 @@ CourseGenix revolutionizes education by harnessing AI to generate comprehensive 
 
 ## 🚀 Features
 
-<table>
+<<table width="100%">
+
+  <tr>
+    <th align="center" width="50%" style="background-color: #121228; color: white; padding: 12px;">
+      🧠 AI Content Generation
+    </th>
+    <th align="center" width="50%" style="background-color: #121228; color: white; padding: 12px;">
+      🎬 Rich Media Integration
+    </th>
+  </tr>
+  <tr>
+    <td align="center" style="padding: 16px; vertical-align: top;">
+      <strong>Smart Course Creation</strong><br/>
+      <em>Generate complete courses on any topic with AI</em><br/>
+      <small>Leverages advanced AI to create comprehensive educational content</small>
+    </td>
+    <td align="center" style="padding: 16px; vertical-align: top;">
+      <strong>Intelligent Video Selection</strong><br/>
+      <em>Curated YouTube video recommendations</em><br/>
+      <small>Multi-factor algorithm selects the most relevant educational videos</small>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" style="padding: 16px; vertical-align: top;">
+      <strong>Structured Learning Path</strong><br/>
+      <em>Auto-organized units and chapters</em><br/>
+      <small>Intelligent course organization with logical progression</small>
+    </td>
+    <td align="center" style="padding: 16px; vertical-align: top;">
+      <strong>AI-Generated Summaries</strong><br/>
+      <em>Comprehensive chapter summaries</em><br/>
+      <small>Concise, actionable content for enhanced comprehension</small>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" style="padding: 16px; vertical-align: top;">
+      <strong>Custom Learning Units</strong><br/>
+      <em>Flexible modular structure</em><br/>
+      <small>Tailored modules for specific learning objectives</small>
+    </td>
+    <td align="center" style="padding: 16px; vertical-align: top;">
+      <strong>Interactive Assessments</strong><br/>
+      <em>Auto-generated quizzes</em><br/>
+      <small>Engaging assessments to reinforce learning outcomes</small>
+    </td>
+  </tr>
+  <tr>
+    <th align="center" style="background-color: #121228; color: white; padding: 12px;">
+      📱 User Experience
+    </th>
+    <th align="center" style="background-color: #121228; color: white; padding: 12px;">
+      🔒 Security & Authentication
+    </th>
+  </tr>
+  <tr>
+    <td align="center" style="padding: 16px; vertical-align: top;">
+      <strong>Responsive Design</strong><br/>
+      <em>Cross-platform compatibility</em><br/>
+      <small>Seamless experience across all devices and screen sizes</small>
+    </td>
+    <td align="center" style="padding: 16px; vertical-align: top;">
+      <strong>OAuth Integration</strong><br/>
+      <em>Google & GitHub authentication</em><br/>
+      <small>Secure, one-click authentication with popular providers</small>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" style="padding: 16px; vertical-align: top;">
+      <strong>Course Discovery</strong><br/>
+      <em>Intuitive gallery interface</em><br/>
+      <small>Beautiful, searchable interface for course exploration</small>
+    </td>
+    <td align="center" style="padding: 16px; vertical-align: top;">
+      <strong>Secure Payments</strong><br/>
+      <em>Stripe integration</em><br/>
+      <small>Enterprise-grade security for payment processing</small>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" style="padding: 16px; vertical-align: top;">
+      <strong>Theme Support</strong><br/>
+      <em>Dark & Light modes</em><br/>
+      <small>Comfortable viewing experience for any preference</small>
+    </td>
+    <td align="center" style="padding: 16px; vertical-align: top;">
+      <strong>Data Protection</strong><br/>
+      <em>Privacy-first approach</em><br/>
+      <small>GDPR compliant user data protection</small>
+    </td>
+  </tr>
+</table>table>
   <tr>
     <th align="center" bgcolor="#121228">
       🧠 AI Content Generation
@@ -147,32 +237,241 @@ This intelligent curation ensures students receive the most valuable and relevan
 
 ## 🧠 Technology Stack
 
-<div align="center">
-
-| 🔧 **Frontend** |   🔙 **Backend**   | 🗃️ **Database** |   🔌 **Integration**   |
-| :-------------: | :----------------: | :-------------: | :--------------------: |
-|   Next.js 15    | Next.js API Routes |   PostgreSQL    |      OpenAI/X.AI       |
-|      React      |     Prisma ORM     |  Prisma Schema  |      YouTube API       |
-|   TypeScript    |    NextAuth.js     | Database Models |      Unsplash API      |
-|  Tailwind CSS   |     Stripe API     |   Migrations    |     Stripe Payment     |
-|    Shadcn/UI    |       Docker       |    Relations    | OAuth2 (Google/GitHub) |
-|  Framer Motion  | Environment Config |    Indexing     |    API Integration     |
-
-</div>
+<table width="100%" style="border-collapse: collapse;">
+  <thead>
+    <tr style="background-color: #121228;">
+      <th align="center" width="16.66%" style="color: white; padding: 12px; border: 1px solid #333;">🔧 Frontend</th>
+      <th align="center" width="16.66%" style="color: white; padding: 12px; border: 1px solid #333;">🔙 Backend</th>
+      <th align="center" width="16.66%" style="color: white; padding: 12px; border: 1px solid #333;">🗃️ Database</th>
+      <th align="center" width="16.66%" style="color: white; padding: 12px; border: 1px solid #333;">🔌 AI & APIs</th>
+      <th align="center" width="16.66%" style="color: white; padding: 12px; border: 1px solid #333;">💳 Payments</th>
+      <th align="center" width="16.66%" style="color: white; padding: 12px; border: 1px solid #333;">🚀 Deployment</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center" style="padding: 12px; border: 1px solid #ddd; vertical-align: top;">
+        <strong>Next.js 15</strong><br/>
+        <small>React Framework</small>
+      </td>
+      <td align="center" style="padding: 12px; border: 1px solid #ddd; vertical-align: top;">
+        <strong>Next.js API</strong><br/>
+        <small>Server Routes</small>
+      </td>
+      <td align="center" style="padding: 12px; border: 1px solid #ddd; vertical-align: top;">
+        <strong>PostgreSQL</strong><br/>
+        <small>Primary Database</small>
+      </td>
+      <td align="center" style="padding: 12px; border: 1px solid #ddd; vertical-align: top;">
+        <strong>OpenAI/X.AI</strong><br/>
+        <small>Course Generation</small>
+      </td>
+      <td align="center" style="padding: 12px; border: 1px solid #ddd; vertical-align: top;">
+        <strong>Stripe</strong><br/>
+        <small>Payment Processing</small>
+      </td>
+      <td align="center" style="padding: 12px; border: 1px solid #ddd; vertical-align: top;">
+        <strong>Docker</strong><br/>
+        <small>Containerization</small>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" style="padding: 12px; border: 1px solid #ddd; vertical-align: top;">
+        <strong>React 19</strong><br/>
+        <small>UI Library</small>
+      </td>
+      <td align="center" style="padding: 12px; border: 1px solid #ddd; vertical-align: top;">
+        <strong>Prisma ORM</strong><br/>
+        <small>Database Access</small>
+      </td>
+      <td align="center" style="padding: 12px; border: 1px solid #ddd; vertical-align: top;">
+        <strong>Prisma Schema</strong><br/>
+        <small>Data Modeling</small>
+      </td>
+      <td align="center" style="padding: 12px; border: 1px solid #ddd; vertical-align: top;">
+        <strong>YouTube API</strong><br/>
+        <small>Video Integration</small>
+      </td>
+      <td align="center" style="padding: 12px; border: 1px solid #ddd; vertical-align: top;">
+        <strong>Webhooks</strong><br/>
+        <small>Event Handling</small>
+      </td>
+      <td align="center" style="padding: 12px; border: 1px solid #ddd; vertical-align: top;">
+        <strong>AWS/DigitalOcean</strong><br/>
+        <small>Cloud Hosting</small>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" style="padding: 12px; border: 1px solid #ddd; vertical-align: top;">
+        <strong>TypeScript</strong><br/>
+        <small>Type Safety</small>
+      </td>
+      <td align="center" style="padding: 12px; border: 1px solid #ddd; vertical-align: top;">
+        <strong>NextAuth.js</strong><br/>
+        <small>Authentication</small>
+      </td>
+      <td align="center" style="padding: 12px; border: 1px solid #ddd; vertical-align: top;">
+        <strong>Migrations</strong><br/>
+        <small>Schema Evolution</small>
+      </td>
+      <td align="center" style="padding: 12px; border: 1px solid #ddd; vertical-align: top;">
+        <strong>Unsplash API</strong><br/>
+        <small>Course Images</small>
+      </td>
+      <td align="center" style="padding: 12px; border: 1px solid #ddd; vertical-align: top;">
+        <strong>Subscriptions</strong><br/>
+        <small>Recurring Billing</small>
+      </td>
+      <td align="center" style="padding: 12px; border: 1px solid #ddd; vertical-align: top;">
+        <strong>Cloudflare</strong><br/>
+        <small>CDN & Security</small>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" style="padding: 12px; border: 1px solid #ddd; vertical-align: top;">
+        <strong>Tailwind CSS</strong><br/>
+        <small>Styling Framework</small>
+      </td>
+      <td align="center" style="padding: 12px; border: 1px solid #ddd; vertical-align: top;">
+        <strong>Environment Config</strong><br/>
+        <small>Configuration</small>
+      </td>
+      <td align="center" style="padding: 12px; border: 1px solid #ddd; vertical-align: top;">
+        <strong>Indexing</strong><br/>
+        <small>Query Optimization</small>
+      </td>
+      <td align="center" style="padding: 12px; border: 1px solid #ddd; vertical-align: top;">
+        <strong>OAuth2</strong><br/>
+        <small>Google/GitHub Auth</small>
+      </td>
+      <td align="center" style="padding: 12px; border: 1px solid #ddd; vertical-align: top;">
+        <strong>Credit System</strong><br/>
+        <small>Usage Tracking</small>
+      </td>
+      <td align="center" style="padding: 12px; border: 1px solid #ddd; vertical-align: top;">
+        <strong>CI/CD</strong><br/>
+        <small>Automated Deployment</small>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" style="padding: 12px; border: 1px solid #ddd; vertical-align: top;">
+        <strong>Shadcn/UI</strong><br/>
+        <small>Component Library</small>
+      </td>
+      <td align="center" style="padding: 12px; border: 1px solid #ddd; vertical-align: top;">
+        <strong>Zod Validation</strong><br/>
+        <small>Input Validation</small>
+      </td>
+      <td align="center" style="padding: 12px; border: 1px solid #ddd; vertical-align: top;">
+        <strong>Relations</strong><br/>
+        <small>Data Relationships</small>
+      </td>
+      <td align="center" style="padding: 12px; border: 1px solid #ddd; vertical-align: top;">
+        <strong>API Integration</strong><br/>
+        <small>Service Orchestration</small>
+      </td>
+      <td align="center" style="padding: 12px; border: 1px solid #ddd; vertical-align: top;">
+        <strong>Analytics</strong><br/>
+        <small>Usage Insights</small>
+      </td>
+      <td align="center" style="padding: 12px; border: 1px solid #ddd; vertical-align: top;">
+        <strong>Monitoring</strong><br/>
+        <small>Health Checks</small>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" style="padding: 12px; border: 1px solid #ddd; vertical-align: top;">
+        <strong>Framer Motion</strong><br/>
+        <small>Animations</small>
+      </td>
+      <td align="center" style="padding: 12px; border: 1px solid #ddd; vertical-align: top;">
+        <strong>Rate Limiting</strong><br/>
+        <small>API Protection</small>
+      </td>
+      <td align="center" style="padding: 12px; border: 1px solid #ddd; vertical-align: top;">
+        <strong>Connection Pooling</strong><br/>
+        <small>Performance</small>
+      </td>
+      <td align="center" style="padding: 12px; border: 1px solid #ddd; vertical-align: top;">
+        <strong>Error Handling</strong><br/>
+        <small>Resilient Integration</small>
+      </td>
+      <td align="center" style="padding: 12px; border: 1px solid #ddd; vertical-align: top;">
+        <strong>Security</strong><br/>
+        <small>PCI Compliance</small>
+      </td>
+      <td align="center" style="padding: 12px; border: 1px solid #ddd; vertical-align: top;">
+        <strong>Scaling</strong><br/>
+        <small>Auto-scaling</small>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ## 📋 Prerequisites
 
 Before you begin, ensure you have the following:
 
-- **[Node.js](https://nodejs.org/)** (v18 or higher)
-- **[PostgreSQL](https://www.postgresql.org/)** database
-- **API keys** for the following services:
-  - [OpenAI/X.AI](https://platform.openai.com/)
-  - [YouTube API](https://developers.google.com/youtube/v3)
-  - [Unsplash API](https://unsplash.com/developers)
-  - [Google OAuth](https://console.cloud.google.com/)
-  - [GitHub OAuth](https://github.com/settings/developers)
-  - [Stripe](https://stripe.com/)
+<table width="100%" style="border-collapse: collapse;">
+  <thead>
+    <tr style="background-color: #121228;">
+      <th align="left" width="20%" style="color: white; padding: 12px; border: 1px solid #333;">🔧 Requirement</th>
+      <th align="left" width="30%" style="color: white; padding: 12px; border: 1px solid #333;">Description</th>
+      <th align="center" width="15%" style="color: white; padding: 12px; border: 1px solid #333;">Version</th>
+      <th align="left" width="35%" style="color: white; padding: 12px; border: 1px solid #333;">Setup Instructions</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; font-weight: bold;">🟢 Node.js</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">JavaScript runtime environment</td>
+      <td align="center" style="padding: 10px; border: 1px solid #ddd; background-color: #f8f9fa;"><strong>v18+</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><a href="https://nodejs.org/">Download from nodejs.org</a></td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; font-weight: bold;">🐘 PostgreSQL</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Primary database for data storage</td>
+      <td align="center" style="padding: 10px; border: 1px solid #ddd; background-color: #f8f9fa;"><strong>v13+</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><a href="https://www.postgresql.org/">Install PostgreSQL</a> or use cloud provider</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; font-weight: bold;">🤖 OpenAI/X.AI</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">AI service for course content generation</td>
+      <td align="center" style="padding: 10px; border: 1px solid #ddd; background-color: #f8f9fa;"><strong>API Key</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><a href="https://platform.openai.com/">Get API key from OpenAI</a></td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; font-weight: bold;">📺 YouTube API</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Video search and metadata retrieval</td>
+      <td align="center" style="padding: 10px; border: 1px solid #ddd; background-color: #f8f9fa;"><strong>v3</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><a href="https://developers.google.com/youtube/v3">Enable YouTube Data API</a> in Google Console</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; font-weight: bold;">📸 Unsplash API</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">High-quality images for course thumbnails</td>
+      <td align="center" style="padding: 10px; border: 1px solid #ddd; background-color: #f8f9fa;"><strong>Access Key</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><a href="https://unsplash.com/developers">Register for Unsplash developer account</a></td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; font-weight: bold;">🔐 Google OAuth</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Authentication provider integration</td>
+      <td align="center" style="padding: 10px; border: 1px solid #ddd; background-color: #f8f9fa;"><strong>Client ID</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><a href="https://console.cloud.google.com/">Setup OAuth 2.0 in Google Console</a></td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; font-weight: bold;">🐙 GitHub OAuth</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Alternative authentication provider</td>
+      <td align="center" style="padding: 10px; border: 1px solid #ddd; background-color: #f8f9fa;"><strong>App ID</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><a href="https://github.com/settings/developers">Create GitHub OAuth App</a></td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; font-weight: bold;">💳 Stripe</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Payment processing and subscriptions</td>
+      <td align="center" style="padding: 10px; border: 1px solid #ddd; background-color: #f8f9fa;"><strong>Secret Key</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><a href="https://stripe.com/">Create Stripe account and get API keys</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ## 🛠️ Quick Start
 
@@ -283,14 +582,83 @@ coursegenix-ai-learning-studio/
 <details>
 <summary><b>Expand Database Models</b></summary>
 
-CourseGenix uses the following data models:
-
-- **`User`** - User accounts and authentication data
-- **`Course`** - Course metadata and relations to units
-- **`Unit`** - Course sections/modules grouping related chapters
-- **`Chapter`** - Individual lessons with video content and summaries
-- **`Question`** - Quiz questions linked to chapters
-- **`UserSubscription`** - Premium subscription data and Stripe integration
+<table width="100%" style="border-collapse: collap"left" width="25%" style="color: white; padding: 12px; border: 1px solid #333;"></th>
+      <th align="left" width="20%" style="color: white; padding: 12px; border: 1px solid #333;">Key Fields</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; font-weight: bold; font-family: monospace;">👤 User</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">User accounts and authentication data</td>
+      <td style="padding: 10px; border: 1px solid #ddd; font-family: monospace; font-size: 12px;">
+        id, email, name<br/>
+        image, createdAt
+      </td>
+      <td style="padding: 10px; border: 1px solid #ddd; font-size: 12px;">
+        → Course (1:N)<br/>
+        → UserSubscription (1:1)
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; font-weight: bold; font-family: monospace;">📚 Course</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Course metadata and configuration</td>
+      <td style="padding: 10px; border: 1px solid #ddd; font-family: monospace; font-size: 12px;">
+        id, name, image<br/>
+        userId, createdAt
+      </td>
+      <td style="padding: 10px; border: 1px solid #ddd; font-size: 12px;">
+        ← User (N:1)<br/>
+        → Unit (1:N)
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; font-weight: bold; font-family: monospace;">📖 Unit</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Course sections grouping related chapters</td>
+      <td style="padding: 10px; border: 1px solid #ddd; font-family: monospace; font-size: 12px;">
+        id, name, courseId<br/>
+        createdAt, updatedAt
+      </td>
+      <td style="padding: 10px; border: 1px solid #ddd; font-size: 12px;">
+        ← Course (N:1)<br/>
+        → Chapter (1:N)
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; font-weight: bold; font-family: monospace;">📄 Chapter</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Individual lessons with video content</td>
+      <td style="padding: 10px; border: 1px solid #ddd; font-family: monospace; font-size: 12px;">
+        id, name, unitId<br/>
+        videoId, summary
+      </td>
+      <td style="padding: 10px; border: 1px solid #ddd; font-size: 12px;">
+        ← Unit (N:1)<br/>
+        → Question (1:N)
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; font-weight: bold; font-family: monospace;">❓ Question</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Quiz questions linked to chapters</td>
+      <td style="padding: 10px; border: 1px solid #ddd; font-family: monospace; font-size: 12px;">
+        id, question, answer<br/>
+        options, chapterId
+      </td>
+      <td style="padding: 10px; border: 1px solid #ddd; font-size: 12px;">
+        ← Chapter (N:1)
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; font-weight: bold; font-family: monospace;">💎 UserSubscription</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Premium subscription and Stripe integration</td>
+      <td style="padding: 10px; border: 1px solid #ddd; font-family: monospace; font-size: 12px;">
+        id, userId, stripeCustomerId<br/>
+        subscriptionId, credits
+      </td>
+      <td style="padding: 10px; border: 1px solid #ddd; font-size: 12px;">
+        ← User (1:1)
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 </details>
 
