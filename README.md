@@ -605,7 +605,7 @@ This project is licensed under the Apache License - see the [LICENSE](LICENSE) f
 
 ## 📧 Contact
 
-B.A.C. Adeesh Perera - Creator and maintainer
+Adeesh Perera - Creator and maintainer
 
 <div align="center">
 
